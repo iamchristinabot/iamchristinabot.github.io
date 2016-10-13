@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Why do resized images in IE7 look pixelated?</title>
+  <meta name="description" content="When using width or height properties to resize images, IE will render a dirty pixelated image unless you correct the rendering type with CSS.">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post" >
+
+    <!-- One -->
+    <h1>Why do resized images in IE7 look pixelated?</h1>
+    <p><p>When using width or height properties to resize images, IE will render a dirty pixelated image unless you correct the rendering type with CSS.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>img{-ms-interpolation-mode: bicubic;}
+</code></pre>
+</div>
+
+<p><strong>Note:</strong> Works for IE7 +</p>
+
+<hr />
+
+<p>Before:</p>
+
+<p><img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-20-at-2.51.34-PM.png" alt="" title="Screen shot 2011-05-20 at 2.51.34 PM" width="595" height="303" class="aligncenter size-full wp-image-77" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-20-at-2.51.34-PM.png 595w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-20-at-2.51.34-PM-300x152.png 300w" sizes="(max-width: 595px) 100vw, 595px" /></p>
+
+<p>After:</p>
+
+<p><img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-20-at-2.51.54-PM.png" alt="" title="Screen shot 2011-05-20 at 2.51.54 PM" width="598" height="305" class="aligncenter size-full wp-image-78" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-20-at-2.51.54-PM.png 598w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-20-at-2.51.54-PM-300x153.png 300w" sizes="(max-width: 598px) 100vw, 598px" /></p>
+</p>
+
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

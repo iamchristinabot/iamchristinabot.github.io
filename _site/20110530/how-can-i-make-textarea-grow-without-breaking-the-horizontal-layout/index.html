@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How can I make textarea grow without breaking the horizontal layout?</title>
+  <meta name="description" content="Depending on the audience, letting users resize an input box isn’t always the best option, in addition, resizing in any direction can break a layout. That’s ...">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post" >
+
+    <!-- One -->
+    <h1>How can I make textarea grow without breaking the horizontal layout?</h1>
+    <p><p>Depending on the audience, letting users resize an input box isn’t always the best option, in addition, resizing in any direction can break a layout. That’s why I prefer <a href="http://plugins.jquery.com/project/autogrowtextarea">this auto-resizing jQuery plugin</a></p>
+
+<p>Call the function at the bottom of your page.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$(document).ready(function(){
+  $("#message").autoGrow();
+});
+
+
+
+
+/*!
+ * Autogrow Textarea Plugin Version v2.0
+ * http://www.technoreply.com/autogrow-textarea-plugin-version-2-0
+ *
+ * Copyright 2011, Jevin O. Sewaruth
+ *
+ * Date: March 13, 2011
+ */
+jQuery.fn.autoGrow = function(){
+	return this.each(function(){
+		// Variables
+		var colsDefault = this.cols;
+		var rowsDefault = this.rows;
+		
+		//Functions
+		var grow = function() {
+			growByRef(this);
+		}
+		
+		var growByRef = function(obj) {
+			var linesCount = 0;
+			var lines = obj.value.split('\n');
+			
+			for (var i=lines.length-1; i&gt;=0; --i)
+			{
+				linesCount += Math.floor((lines[i].length / colsDefault) + 1);
+			}
+
+			if (linesCount &gt;= rowsDefault)
+				obj.rows = linesCount + 1;
+			else
+				obj.rows = rowsDefault;
+		}
+		
+		var characterWidth = function (obj){
+			var characterWidth = 0;
+			var temp1 = 0;
+			var temp2 = 0;
+			var tempCols = obj.cols;
+			
+			obj.cols = 1;
+			temp1 = obj.offsetWidth;
+			obj.cols = 2;
+			temp2 = obj.offsetWidth;
+			characterWidth = temp2 - temp1;
+			obj.cols = tempCols;
+			
+			return characterWidth;
+		}
+		
+		// Manipulations
+		this.style.width = "auto";
+		this.style.height = "auto";
+		this.style.overflow = "hidden";
+		this.style.width = ((characterWidth(this) * this.cols) + 6) + "px";
+		this.onkeyup = grow;
+		this.onfocus = grow;
+		this.onblur = grow;
+		growByRef(this);
+	});
+};
+</code></pre>
+</div>
+
+<p>Let the above jQuery code do the rest of the work.</p>
+
+<p><a href="http://plugins.jquery.com/project/autogrowtextarea">Source</a></p>
+</p>
+
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

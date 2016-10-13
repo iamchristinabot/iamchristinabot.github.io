@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Why do nested html paragraphs break CSS?</title>
+  <meta name="description" content="I tried something silly today… to find that it didn’t work, here’s what:">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post" >
+
+    <!-- One -->
+    <h1>Why do nested html paragraphs break CSS?</h1>
+    <p><p>I tried something silly today… to find that it didn’t work, here’s what:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;p&gt;
+     &lt;p&gt;Title&lt;/p&gt;
+     &lt;p&gt;Description&lt;/p&gt;
+&lt;/p&gt;
+</code></pre>
+</div>
+
+<p>I thought that by nesting p-tags I would have text that was indented much like a blockquote but with my p-tag CSS attributes. It didn’t work because before CSS styles can be applied, the HTML has to be valid and as it turns out, nested paragraphs are not possible because when an HMTL parser sees two p-tags it interprets them as 2 paragraphs following each other, extra closed p-tags are ignored as errors. <strong>Do not do this.</strong></p>
+</p>
+
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

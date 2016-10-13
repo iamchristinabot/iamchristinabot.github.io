@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bootstrap menu button not working for you?</title>
+  <meta name="description" content="There’s a couple things you should know about the bootstrap menu icon, if it’s not working for you chances are one of these things is off.">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post" >
+
+    <!-- One -->
+    <h1>Bootstrap menu button not working for you?</h1>
+    <p><p>There’s a couple things you should know about the bootstrap menu icon, if it’s not working for you chances are one of these things is off.</p>
+
+<p>In order to get it to show up, you will need to have it set in the appropriate tags. It needs to be sitting in a “navbar” class, followed by a “btn-navbar” class. In my example below, I’ve got a div called “navbar” and a button tag called “btn-navbar”. Once you have your structure nested properly, you’ll notice the css triggering from your bootstrap.css file.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&amp;#60;div class="navbar navbar-inverse"&gt;
+  &amp;#60;div class="navbar-inner"&gt;
+    &amp;#60;button type="button" class="btn btn-navbar"&gt;
+      &amp;#60;span class="icon-bar"&gt;&lt;/span&gt;
+      &amp;#60;span class="icon-bar"&gt;&lt;/span&gt;
+      &amp;#60;span class="icon-bar"&gt;&lt;/span&gt;
+    &amp;#60;/button&gt;
+  &amp;#60;/div&gt;
+&amp;#60;/div&gt;
+</code></pre>
+</div>
+
+<p>If your menu button isn’t showing up at all, chances are because bootstrap is hiding it. I think the original purpose of this button was to display a condensed navigation menu on smaller screens and mobile devices… so it only shows when the viewing area is small, other times, it is hidden. Now that people want to use this menu on their full-size websites, we have to fight with bootstrap, just a little bit.</p>
+
+<p>Add this to your CSS overrides:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>.navbar .btn-navbar {
+     display: inline-block;
+}
+</code></pre>
+</div>
+
+<p>If this blog was helpful, let me know on <a href="https://twitter.com/iamchristinabot">Twitter</a>.</p>
+</p>
+
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

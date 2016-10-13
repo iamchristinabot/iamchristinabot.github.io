@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How do I list databases in MySQL?</title>
+  <meta name="description" content="To list database type the following commandOpen Terminal">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post" >
+
+    <!-- One -->
+    <h1>How do I list databases in MySQL?</h1>
+    <p><p>To list database type the following command</p>
+
+<p>Open Terminal</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>mysql {PRESS ENTER}
+mysql&gt; show databases;
+</code></pre>
+</div>
+
+<p>This is the output of my command, it only listed the mysql default database, not quite what I wanted to see.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>+--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| test               |
++--------------------+
+</code></pre>
+</div>
+
+<p>The reason my databases weren’t listed is because I wasn’t logged in as root so when logging in I typed -u root and if you have a password you’ll have to do that by adding -p yourpassword</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>quit {PRESS ENTER}
+mysql -u root {PRESS ENTER}
+mysql&gt; show databases; {PRESS ENTER}
+
++--------------------------+
+| Database                 |
++--------------------------+
+| information_schema       |
+| headliner            |
+| mysql                    |
+| test                     |
++--------------------------+
+</code></pre>
+</div>
+
+<p>Now I’m able to see all databases that I’ve installed.</p>
+</p>
+
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

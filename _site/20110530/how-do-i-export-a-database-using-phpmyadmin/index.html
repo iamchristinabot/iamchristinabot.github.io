@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How do I export a database using phpMyAdmin?</title>
+  <meta name="description" content="Everyone’s setup is different so first you’ll have to get to the phpMyAdmin section on your web hosting server. With Dreamhost it was easy, under “Goodies” c...">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml" />
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post" >
+
+    <!-- One -->
+    <h1>How do I export a database using phpMyAdmin?</h1>
+    <p><p>Everyone’s setup is different so first you’ll have to get to the phpMyAdmin section on your web hosting server. With Dreamhost it was easy, under “Goodies” click “MySQL Databases” and then in the right column you’ll see a link for PHPMyAdmin, click that and login.</p>
+
+<p>When you’re there, you’ll see an “Export” tab at the top.</p>
+
+<p><img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-29-at-10.28.03-PM.png" alt="" title="Screen shot 2011-05-29 at 10.28.03 PM" width="328" height="62" class="aligncenter size-full wp-image-92" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-29-at-10.28.03-PM.png 328w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-29-at-10.28.03-PM-300x56.png 300w" sizes="(max-width: 328px) 100vw, 328px" /></p>
+
+<hr />
+
+<p>Click the database you want to export, <strong>do not select information_schema</strong> unless you want to overrite your default MySQL database, which isn’t recommended.</p>
+
+<p><img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-29-at-10.33.41-PM.png" alt="" title="Screen shot 2011-05-29 at 10.33.41 PM" width="251" height="118" class="aligncenter size-full wp-image-93" /></p>
+
+<hr />
+
+<p><strong>Check off the box for Structure</strong> and the following:</p>
+
+<p>Add DROP TABLE / VIEW / PROCEDURE / FUNCTION / EVENT</p>
+
+<p>Add IF NOT EXISTS</p>
+
+<p>Add AUTO_INCREMENT value</p>
+
+<p>Enclose table and field names with backquotes</p>
+
+<p><strong>Check the box for data</strong> and the following:</p>
+
+<p>Complete inserts</p>
+
+<p>Extended inserts</p>
+
+<p>Maximal length of created query</p>
+
+<p>Use hexadecimal for BLOB</p>
+
+<p>Select “Insert” from drop box.</p>
+
+<p><img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-29-at-10.37.11-PM.png" alt="" title="Screen shot 2011-05-29 at 10.37.11 PM" width="583" height="403" class="aligncenter size-full wp-image-94" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-29-at-10.37.11-PM.png 583w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-29-at-10.37.11-PM-300x207.png 300w" sizes="(max-width: 583px) 100vw, 583px" /></p>
+
+<hr />
+
+<p><strong>Check off the box “Save As File”</strong> and give your file a name, I like to use an uncompressed version of my database so I’m going to select “none” for that.</p>
+
+<p><img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-29-at-10.44.12-PM.png" alt="" title="Screen shot 2011-05-29 at 10.44.12 PM" width="487" height="93" class="aligncenter size-full wp-image-95" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-29-at-10.44.12-PM.png 487w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-29-at-10.44.12-PM-300x57.png 300w" sizes="(max-width: 487px) 100vw, 487px" /></p>
+
+<p>Press “Go” and you’ll see the SQL file start to download.</p>
+</p>
+
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

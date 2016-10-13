@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'source-sans-pro';
+  src: url('../fonts/SourceSansPro-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SourceSansPro-Light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/SourceSansPro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SourceSansPro-Light.svg#dd3b7a876484172d97db2422648cdc50') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'source-sans-pro';
+  src: url('../fonts/SourceSansPro-Semibold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/SourceSansPro-Semibold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/SourceSansPro-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/SourceSansPro-Semibold.svg#f7754f3658eb134b622c7e70e8b7751b') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  bold;
+}
+
+
+
+body{
+  color: #333333;
+  font-family: "source-sans-pro", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h1, h2 {
+  color: #222222;
+  font-size: 50px;
+  letter-spacing: .75px;
+  line-height: 54px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h3 {
+  color: #888888;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: .75px;
+  line-height: 24px;
+  margin: 0 0 3px;
+}
+
+h4 {
+  color: #999999;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  margin: 5px 0px 8px 0px;
+}
+
+h5 {
+  color: #444444;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: -1px;
+  line-height: 24px;
+  margin: 0 0 3px;
+}
+
+h6 {
+  color: #555555;
+  font-size: 17px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin: 9px 0 18px;
+}
+
+.ital {
+  font-style: italic;
+}
+
+p {
+  color: #888888;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 16px;
+}
+
+sup {
+  font-size: .5em;
+  vertical-align: top;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

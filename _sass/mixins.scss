@@ -1,0 +1,17 @@
+$bp-small : 480px;
+$bp-small-plus : 650px;
+$bp-medium : 768px;
+$bp-large : 992px;
+$bp-xlarge : 1200px;
+
+@mixin breakp ($breaksize){
+    @media only screen and (min-width: $breaksize) { @content; }
+}
+
+
+@mixin backgroundCover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

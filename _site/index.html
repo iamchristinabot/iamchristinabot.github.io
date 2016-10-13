@@ -15,8 +15,9 @@
   <meta name="description" content="Just another WordPress site">
 
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  
-  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml" />
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml">
 
 </head>
 
@@ -32,13 +33,39 @@
 
 
     <div class="page-content">
-      <div class="home">
-  <div id="instagram"></div>
+      <video id="bgvid" preload="auto" poster="images/video-still.jpg" autoplay playsinline loop muted>
+  <source src="video/christinadobi-video.mp4" type="video/webm">
+  <source src="video/christinadobi-video.mp4" type="video/mp4">
+</video>
+
+<div id="red"></div>
+<div class="home">
+  <div class="console">
+    <div class="text">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-centered text-center">
+            <div class="fadeInUp"><img src="images/hello.png" class="img-responsive hello"/>
+              <p>I’m Christina Dobi, an interface designer, developer and UX consultant, currently full-time at Gerson Lehrman Group in New York City.</p>
+            </div>
+            <div class="fadeIn social-icons">
+              <a href="https://www.instagram.com/iamchristinabot" target="_blank">Instagram</a>
+              <a href="https://www.twitter.com/iamchristinabot" target="_blank">Twitter</a>
+              <a href="https://www.linkedin.com/in/christinadobi" target="_blank">LinkedIn</a>
+              <a href="mailto:iamchristinabot@gmail.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+<div id="instagram" class="text-center"></div>
 
 <script type="text/javascript" src="/js/instafeed.js"></script>
 
 <script type="text/javascript">
+
   var feed = new Instafeed({
     get: 'user',
     userId: 6758376,

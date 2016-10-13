@@ -1,3 +1,7 @@
 url: http://www.iamchristinabot.com/blog
 name: 'iamchristinabot.com - blog'
 description: Just another WordPress site
+
+sass:
+  sass_dir: _sass
+  style: compressed

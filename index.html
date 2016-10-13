@@ -4,6 +4,7 @@ title: Christina Dobi - Blog
 ---
 
 <div class="home">
+  <div id="instagram"></div>
   {% for post in site.posts %}
   {% unless post.sitemap == false %}
   <li>
@@ -15,3 +16,24 @@ title: Christina Dobi - Blog
   {% endunless %}
   {% endfor %}
 </div>
+
+<script type="text/javascript" src="{{ base }}/js/instafeed.js"></script>
+
+<script type="text/javascript">
+  var feed = new Instafeed({
+    get: 'user',
+    userId: 6758376,
+    accessToken: '6758376.1677ed0.0284f94a6e114d5896c1fc9d582b243d',
+    target: 'instagram',
+    resolution: 'standard_resolution',
+    after: function() {
+      var el = document.getElementById('instagram');
+      if (el.classList)
+        el.classList.add('show');
+      else
+        el.className += ' ' + 'show';
+    }
+  });
+
+  feed.run();
+</script>

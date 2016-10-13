@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 
 <html>
+  <!-- _includes/base.html -->
+
+
+
 
   <head>
   <meta charset="utf-8">
@@ -27,6 +31,7 @@
 
     <div class="page-content">
       <div class="home">
+  <div id="instagram"></div>
   
   
   <li>
@@ -704,6 +709,27 @@
   
   
 </div>
+
+<script type="text/javascript" src="/js/instafeed.js"></script>
+
+<script type="text/javascript">
+  var feed = new Instafeed({
+    get: 'user',
+    userId: 6758376,
+    accessToken: '6758376.1677ed0.0284f94a6e114d5896c1fc9d582b243d',
+    target: 'instagram',
+    resolution: 'standard_resolution',
+    after: function() {
+      var el = document.getElementById('instagram');
+      if (el.classList)
+        el.classList.add('show');
+      else
+        el.className += ' ' + 'show';
+    }
+  });
+
+  feed.run();
+</script>
 
     </div>
 

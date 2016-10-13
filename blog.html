@@ -1,0 +1,17 @@
+---
+layout: default
+title: Christina Dobi | Blog
+---
+
+<div class="blog">
+  {% for post in site.posts %}
+  {% unless post.sitemap == false %}
+  <li>
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <h3 class="position">{{ post.headline }}</h3>
+      <p class="takeaway">{{ post.title }}</p>
+    </a>
+  </li>
+  {% endunless %}
+  {% endfor %}
+</div>

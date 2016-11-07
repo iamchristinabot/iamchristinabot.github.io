@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How do I create a new database and import .SQL file?</title>
+  <meta name="description" content="Open Terminal &amp; Login.">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml">
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-centered">
+            <div class="card">
+              <!-- One -->
+              <h1>How do I create a new database and import .SQL file?</h1>
+              <p><p>Open Terminal &amp; Login.</p>
+
+<p>If you don’t have a password, leave it off like I did.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>mysql -u root {PRESS ENTER}
+mysql&gt; create database iamchristinabot; {PRESS ENTER}
+Query OK, 1 row affected (0.00 sec)
+</code></pre>
+</div>
+
+<p>Now I’ve got a spot to drop in a new database, exit out of mySQL and back to your command prompt.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>mysql -u root iamchristinabot &lt; Downloads/iamchristinabot.sql
+</code></pre>
+</div>
+
+<p>MYSQL LOGIN DATABASENAME &lt; LOCATION/OF/DATABASE.sql If nothing happens after that, you did it right! That’s it!</p>
+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

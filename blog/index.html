@@ -1,0 +1,46 @@
+---
+layout: default
+title: Christina Dobi | Blog
+---
+
+<div id="posts">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <ul class="blog no-bullets">
+          {% for post in site.posts %}
+          {% unless post.sitemap == false %}
+          <li class="card">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <h3 class="title">{{ post.title }}</h3>
+              <p>{{post.excerpt}}</p>
+            </a>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <p>Read more...</p>
+            </a>
+          </li>
+          {% endunless %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <li>
+          <a href="/blog/web-development">Web Development</a>
+        </li>
+        <li>
+          <a href="/blog/design">Design</a>
+        </li>
+        <li>
+          <a href="/blog/work-life">Work life</a>
+        </li>
+        <li>
+          <a href="/blog/personal">Personal</a>
+        </li>
+        <!-- {% for category in site.categories %}
+          <li><a href="/blog/{{ category | first | prepend: site.baseurl | slugify}}">{{ category | first }}</a>
+          </li>
+        {% endfor %} -->
+      </div>
+    </div>
+  </div>
+</div>

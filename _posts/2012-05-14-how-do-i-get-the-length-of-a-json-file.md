@@ -5,9 +5,10 @@ date: 2012-05-14T18:37:55+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=189
-permalink: /20120514/how-do-i-get-the-length-of-a-json-file/
+permalink: /blog/20120514/how-do-i-get-the-length-of-a-json-file/
 categories:
   - Javascript
+  - 'Web Development'
 ---
 First, you&#8217;ll have to [create a properly formatted JSON file](http://www.iamchristinabot.com/blog/category/web-development/javascript/). Once you&#8217;re done with that, getting the current number of objects from that list is a piece of cake.
 
@@ -17,6 +18,6 @@ First, you&#8217;ll have to [create a properly formatted JSON file](http://www.i
     alert(json.length);
     });
     </script>
-    
+
 
 Pull in the feed via getJSON function, toss it into a variable (I called mine json) and grab the length with .length. My example alerts the number of entries but you can do what ever you&#8217;d like.

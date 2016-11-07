@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Christina Dobi | Designer and Front-end Developer</title>
+  <meta name="description" content="Just another WordPress site">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml">
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div id="about">
+  <div id="instagram" class="text-center"></div>
+</div>
+<script type="text/javascript" src="/js/instafeed.js"></script>
+
+<script type="text/javascript">
+
+  var feed = new Instafeed({
+    get: 'user',
+    userId: 6758376,
+    accessToken: '6758376.1677ed0.0284f94a6e114d5896c1fc9d582b243d',
+    target: 'instagram',
+    resolution: 'standard_resolution',
+    after: function() {
+      var el = document.getElementById('instagram');
+      if (el.classList)
+        el.classList.add('show');
+      else
+        el.className += ' ' + 'show';
+    }
+  });
+
+  feed.run();
+</script>
+
+    </div>
+
+    <footer class="site-footer">
+</footer>
+
+    <script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+  </body>
+
+</html>

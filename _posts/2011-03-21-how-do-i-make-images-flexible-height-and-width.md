@@ -5,9 +5,10 @@ date: 2011-03-21T18:00:20+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=23
-permalink: /20110321/how-do-i-make-images-flexible-height-and-width/
+permalink: /blog/20110321/how-do-i-make-images-flexible-height-and-width/
 categories:
   - 'HTML &amp; CSS'
+  - 'Web Development'
 ---
 This is easy stuff.
 
@@ -19,7 +20,7 @@ Unfortunately not supported in IE but I believe appending targeted IE code will 
 
     img {
         max-width:100%;
-        *width: 100%; 
+        *width: 100%;
     }
 
 I&#8217;ve used this code on my home page light box to view large images of my work [here](http://iamchristinabot.com) &#8211; try resizing your browser.

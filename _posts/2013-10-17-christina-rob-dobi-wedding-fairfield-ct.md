@@ -5,7 +5,7 @@ date: 2013-10-17T05:33:28+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=268
-permalink: /20131017/christina-rob-dobi-wedding-fairfield-ct/
+permalink: /blog/20131017/christina-rob-dobi-wedding-fairfield-ct/
 categories:
   - Personal
 ---

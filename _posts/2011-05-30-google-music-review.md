@@ -5,7 +5,7 @@ date: 2011-05-30T01:12:51+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=79
-permalink: /20110530/google-music-review/
+permalink: /blog/20110530/google-music-review/
 categories:
   - Design
 ---

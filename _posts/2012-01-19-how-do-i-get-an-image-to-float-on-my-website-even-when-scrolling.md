@@ -5,7 +5,7 @@ date: 2012-01-19T03:10:37+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=169
-permalink: /20120119/how-do-i-get-an-image-to-float-on-my-website-even-when-scrolling/
+permalink: /blog/20120119/how-do-i-get-an-image-to-float-on-my-website-even-when-scrolling/
 categories:
   - 'HTML &amp; CSS'
   - Web Development

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How do I get an image to float on my website even when scrolling?</title>
+  <meta name="description" content="First you’ll want to put a DIV somewhere on your page and give it a class, for my example I’m going to call it floatingbanner.">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml">
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-centered">
+            <div class="card">
+              <!-- One -->
+              <h1>How do I get an image to float on my website even when scrolling?</h1>
+              <p><p>First you’ll want to put a DIV somewhere on your page and give it a class, for my example I’m going to call it floatingbanner.</p>
+
+<p>So, our HTML will look like this:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code> &lt;div class="floatingbanner"&gt; &lt;!-- Banner Appears Here --&gt; &lt;/div&gt; 
+</code></pre>
+</div>
+
+<p>Then we drop in some CSS, setting the image as a centered background and give the div positioning properties so that it’s fixed at 0px from the bottom of the browser window:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>.floatingbanner{
+ background:transparent url(../images/floatingimage.png) no-repeat scroll top center;
+ bottom:0;
+ left:0px;
+ position:fixed;
+ width:100%;
+ z-index:9999;
+ height:80px;
+} 
+</code></pre>
+</div>
+
+<p>Here’s what it looks like:</p>
+
+<p><img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2012/01/image-floating-in-browser-window.png" alt="" title="image floating in browser window" width="645" height="268" class="aligncenter size-full wp-image-171" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2012/01/image-floating-in-browser-window.png 645w, http://www.iamchristinabot.com/blog/wp-content/uploads/2012/01/image-floating-in-browser-window-300x124.png 300w" sizes="(max-width: 645px) 100vw, 645px" /></p>
+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

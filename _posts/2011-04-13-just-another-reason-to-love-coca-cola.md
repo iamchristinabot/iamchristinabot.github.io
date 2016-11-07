@@ -5,7 +5,7 @@ date: 2011-04-13T21:50:58+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=46
-permalink: /20110413/just-another-reason-to-love-coca-cola/
+permalink: /blog/20110413/just-another-reason-to-love-coca-cola/
 categories:
   - Design
 ---

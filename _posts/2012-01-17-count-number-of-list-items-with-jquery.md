@@ -5,9 +5,10 @@ date: 2012-01-17T21:20:01+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=163
-permalink: /20120117/count-number-of-list-items-with-jquery/
+permalink: /blog/20120117/count-number-of-list-items-with-jquery/
 categories:
   - Javascript
+  - 'Web Development'
 ---
 So you want to know how many items are in that list:
 

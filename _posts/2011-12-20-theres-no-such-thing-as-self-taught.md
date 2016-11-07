@@ -5,7 +5,7 @@ date: 2011-12-20T18:43:53+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=157
-permalink: /20111220/theres-no-such-thing-as-self-taught/
+permalink: /blog/20111220/theres-no-such-thing-as-self-taught/
 categories:
   - Personal
 ---

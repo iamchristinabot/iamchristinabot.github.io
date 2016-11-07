@@ -5,9 +5,10 @@ date: 2011-10-11T21:01:25+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=154
-permalink: /20111011/an-interview-with-charles-ray-eames/
+permalink: /blog/20111011/an-interview-with-charles-ray-eames/
 categories:
   - Inspiration
+  - Work Life
 ---
 [<img class="aligncenter size-medium wp-image-155" title="Interview of Charles and Ray Eames" src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/10/Screen-shot-2011-10-11-at-5.02.57-PM-300x163.png" alt="" width="300" height="163" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/10/Screen-shot-2011-10-11-at-5.02.57-PM-300x163.png 300w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/10/Screen-shot-2011-10-11-at-5.02.57-PM.png 639w" sizes="(max-width: 300px) 100vw, 300px" />](http://www.youtube.com/watch?v=zfzLzOl795E&feature=related)
 

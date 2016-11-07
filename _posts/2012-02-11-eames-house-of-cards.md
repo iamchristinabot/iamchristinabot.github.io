@@ -5,7 +5,7 @@ date: 2012-02-11T20:34:51+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=172
-permalink: /20120211/eames-house-of-cards/
+permalink: /blog/20120211/eames-house-of-cards/
 categories:
   - Inspiration
   - Personal

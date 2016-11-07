@@ -5,7 +5,7 @@ date: 2011-05-04T05:02:48+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=62
-permalink: /20110504/effective-communication-using-pictograms/
+permalink: /blog/20110504/effective-communication-using-pictograms/
 categories:
   - Design
 ---

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>What does adding a slash do in the font property for CSS?</title>
+  <meta name="description" content="This is actually a shorthand for font size (first metric) and line-height (second metric) and font-family.">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml">
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-centered">
+            <div class="card">
+              <!-- One -->
+              <h1>What does adding a slash do in the font property for CSS?</h1>
+              <p><p>This is actually a shorthand for font size (first metric) and line-height (second metric) and font-family.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>font: 12px/16px "Times", serif;
+</code></pre>
+</div>
+
+<p>… is the same as…</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>font-size: 12px;
+line-height: 16px;
+font-family: "Times", serif;
+</code></pre>
+</div>
+
+<p><strong>Notes</strong></p>
+
+<p>– In order to use this shortcut you <strong>must have the size, line height AND font-family specified</strong> or it will not work.</p>
+
+<p>– This shorthand works in all modern browsers, but not in emails.</p>
+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

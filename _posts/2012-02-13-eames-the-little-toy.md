@@ -5,7 +5,7 @@ date: 2012-02-13T18:26:17+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=175
-permalink: /20120213/eames-the-little-toy/
+permalink: /blog/20120213/eames-the-little-toy/
 categories:
   - Design
   - Inspiration

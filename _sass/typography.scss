@@ -5,7 +5,6 @@
        url('../fonts/SourceSansPro-Light.woff') format('woff'), /* Modern Browsers */
        url('../fonts/SourceSansPro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../fonts/SourceSansPro-Light.svg#dd3b7a876484172d97db2422648cdc50') format('svg'); /* Legacy iOS */
-
   font-style:   normal;
   font-weight:  200;
 }
@@ -17,18 +16,16 @@
        url('../fonts/SourceSansPro-Semibold.woff') format('woff'), /* Modern Browsers */
        url('../fonts/SourceSansPro-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../fonts/SourceSansPro-Semibold.svg#f7754f3658eb134b622c7e70e8b7751b') format('svg'); /* Legacy iOS */
-
   font-style:   normal;
   font-weight:  bold;
 }
-
-
 
 body{
   color: #333333;
   font-family: "source-sans-pro", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
   font-style: normal;
   font-weight: 200;
+  line-height: 1.6;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
 }
 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How do I get Internet Explorer 7 to display z-index ?</title>
+  <meta name="description" content="The ticker bar lower shadow displayed perfectly in Safari, Chrome &amp; Firefox, but IE didn’t show it.">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml">
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-centered">
+            <div class="card">
+              <!-- One -->
+              <h1>How do I get Internet Explorer 7 to display z-index ?</h1>
+              <p><p>The ticker bar lower shadow displayed perfectly in Safari, Chrome &amp; Firefox, but IE didn’t show it.</p>
+
+<p><a href="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-29-at-2.47.55-PM.png"><img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-29-at-2.47.55-PM-1024x309.png" alt="" title="Screen shot 2011-03-29 at 2.47.55 PM" width="480" height="144" class="aligncenter size-large wp-image-40" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-29-at-2.47.55-PM-1024x309.png 1024w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-29-at-2.47.55-PM-300x90.png 300w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-29-at-2.47.55-PM.png 1108w" sizes="(max-width: 480px) 100vw, 480px" /></a></p>
+
+<p>It looked cut off like this:</p>
+
+<p><a href="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-29-at-2.41.09-PM.png"><img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-29-at-2.41.09-PM-1024x377.png" alt="" title="Screen shot 2011-03-29 at 2.41.09 PM" width="480" height="176" class="aligncenter size-large wp-image-39" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-29-at-2.41.09-PM-1024x377.png 1024w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-29-at-2.41.09-PM-300x110.png 300w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-29-at-2.41.09-PM.png 1050w" sizes="(max-width: 480px) 100vw, 480px" /></a></p>
+
+<p>To get IE to display z-index, <strong>you have add positioning and z-index to the parent container</strong>. I added a lower and higher z-index and both seemed to display just fine in IE7.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>#jumpinconsole{
+  width:100%;
+  position:relative;
+  height: 115px;
+  overflow:visible;
+  &lt;span class="green"&gt;z-index:2000;&lt;/span&gt;
+}
+
+#jumpinconsole .console_counter{
+    padding:25px 0px 0px 0px;
+    background-image:url(/images/background_fancalculator2.png);
+    background-repeat:repeat-x;
+    position:absolute;
+    width:100%;
+    top:-20px;
+    left:0px;
+    z-index:1000;
+    height:145px;
+  }
+</code></pre>
+</div>
+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

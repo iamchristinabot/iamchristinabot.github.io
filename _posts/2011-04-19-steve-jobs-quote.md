@@ -5,10 +5,10 @@ date: 2011-04-19T18:48:14+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=51
-permalink: /20110419/steve-jobs-quote/
+permalink: /blog/20110419/steve-jobs-quote/
 categories:
   - Personal
-  - Productivity
+  - Work Life
 ---
 I love this steve jobs quote, from his speech at Stanford, I think about it often.
 

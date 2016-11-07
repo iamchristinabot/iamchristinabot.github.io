@@ -5,7 +5,7 @@ date: 2011-03-29T01:39:01+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=31
-permalink: /20110329/how-do-i-know-if-the-cta-on-my-landing-page-is-clear/
+permalink: /blog/20110329/how-do-i-know-if-the-cta-on-my-landing-page-is-clear/
 categories:
   - Design
 ---

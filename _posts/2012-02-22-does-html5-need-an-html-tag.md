@@ -5,9 +5,10 @@ date: 2012-02-22T21:58:43+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=181
-permalink: /20120222/does-html5-need-an-html-tag/
+permalink: /blog/20120222/does-html5-need-an-html-tag/
 categories:
   - HTML5
+  - 'Web Development'
 ---
 No it is not REQUIRED but yes, we should still use it, allow me to explain.
 

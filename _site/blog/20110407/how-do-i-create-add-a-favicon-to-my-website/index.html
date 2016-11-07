@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How do I create &#038; add a favicon to my website?</title>
+  <meta name="description" content="There are two ways to do this.">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml">
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-centered">
+            <div class="card">
+              <!-- One -->
+              <h1>How do I create &#038; add a favicon to my website?</h1>
+              <p><p>There are two ways to do this.</p>
+
+<p><strong>My Preferred Method</strong></p>
+
+<ol>
+  <li>
+    <p>Create an image with the same width &amp; height, resize image to 16×16 pixels.</p>
+  </li>
+  <li>
+    <p>In Photoshop, File-&gt; Save for Web as a PNG-24, check Transparent if you want to.</p>
+  </li>
+  <li>
+    <p>Add this bit to your <strong>&lt;head&gt;</strong> tag.</p>
+
+    <link rel="icon" href="favicon.png" type="image/png" />
+  </li>
+</ol>
+
+<p><strong>The Other Way</strong></p>
+
+<p>I usually create a .ico as a backup anyway, but the previous method works just fine. I like to use <a href="http://tools.dynamicdrive.com/favicon/" target="_blank"><em>Dynamic Drive Favicon Generator</em></a>. If you take this route you’ll want to use this code in your <strong>&lt;head&gt;</strong> tag instead.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;link rel="icon" href="favicon.ico" type="image/x-icon" /&gt;
+&lt;link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /&gt;
+</code></pre>
+</div>
+
+<p>For examples of favicon design, <a href="http://www.smashingmagazine.com/2007/01/31/inspire-yourself-50-remarkable-favicons/" target="_blank">check out <em>Smashing Magazine</em></a>.</p>
+
+<p>If my code helped you out, I’d like to know, please leave comments below (no registration needed).</p>
+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

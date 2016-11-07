@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Why does text-align center only work inline and not from a css stylesheet?</title>
+  <meta name="description" content="I started thinking I was crazy when my text-align center worked inline but not when I added it to the stylesheet, this was due to the order in which the CSS ...">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml">
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-centered">
+            <div class="card">
+              <!-- One -->
+              <h1>Why does text-align center only work inline and not from a css stylesheet?</h1>
+              <p><p>I started thinking I was crazy when my text-align center worked inline but not when I added it to the stylesheet, this was due to the order in which the CSS loaded. The center property was being over-written by a left property somewhere else so adding !important fixed it right up.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>.center{text-align:center !important;}
+</code></pre>
+</div>
+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

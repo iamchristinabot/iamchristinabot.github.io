@@ -5,9 +5,10 @@ date: 2011-04-06T20:20:54+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=41
-permalink: /20110406/promodoro-challenge-to-be-super-productive/
+permalink: /blog/20110406/promodoro-challenge-to-be-super-productive/
 categories:
   - Productivity
+  - Work Life
 ---
 Doing my third day of the Pomodoro Technique, here&#8217;s a bit on how it keeps me focused on my work.
 

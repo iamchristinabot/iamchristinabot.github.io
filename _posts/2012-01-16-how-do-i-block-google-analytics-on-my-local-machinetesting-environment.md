@@ -5,7 +5,7 @@ date: 2012-01-16T21:31:28+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=164
-permalink: /20120116/how-do-i-block-google-analytics-on-my-local-machinetesting-environment/
+permalink: /blog/20120116/how-do-i-block-google-analytics-on-my-local-machinetesting-environment/
 categories:
   - Mac OS X
   - Web Development

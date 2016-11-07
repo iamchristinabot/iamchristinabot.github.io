@@ -5,7 +5,7 @@ date: 2011-07-20T17:14:13+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=109
-permalink: /20110720/today-is-my-birthday/
+permalink: /blog/20110720/today-is-my-birthday/
 categories:
   - Personal
 ---

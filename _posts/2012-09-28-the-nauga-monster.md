@@ -5,7 +5,7 @@ date: 2012-09-28T22:12:08+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=203
-permalink: /20120928/the-nauga-monster/
+permalink: /blog/20120928/the-nauga-monster/
 categories:
   - Design
   - Inspiration

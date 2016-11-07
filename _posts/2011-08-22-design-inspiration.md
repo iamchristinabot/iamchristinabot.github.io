@@ -5,7 +5,7 @@ date: 2011-08-22T17:28:53+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=138
-permalink: /20110822/design-inspiration/
+permalink: /blog/20110822/design-inspiration/
 categories:
   - Design
 ---

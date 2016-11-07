@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How do I include one file in another with PHP?</title>
+  <meta name="description" content="This is my favorite approach to including one file in another, but it means your server has to be running PHP and all of your file names need to be named .ph...">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="" href="feed.xml">
+
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+    <div class="row">
+    </div>
+  </div>
+</header>
+
+
+    <div id="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-centered">
+            <div class="card">
+              <!-- One -->
+              <h1>How do I include one file in another with PHP?</h1>
+              <p><p>This is my favorite approach to including one file in another, but it means your server has to be running PHP and all of your file names need to be named .php instead of .html. If you’re not sure if your web hosting runs PHP you’ll have to check with them otherwise you can follow these instructions to see if it works.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;?php
+     include("includes/header.php");
+?&gt;
+</code></pre>
+</div>
+
+<p>Create a directory called includes and put all the files you would want to include in there. Make sure the file calling the include is a .php extension. In order to see php on your local machine you’ll have to have PHP running on your web server, you can use <a href="http://www.mamp.info/en/index.html">MAMP</a> for this.</p>
+</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+</footer>
+
+
+  </body>
+
+</html>

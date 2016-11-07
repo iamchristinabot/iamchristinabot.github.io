@@ -5,9 +5,10 @@ date: 2014-07-04T00:56:30+00:00
 author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=313
-permalink: /20140704/how-to-start-a-garden/
+permalink: /blog/20140704/how-to-start-a-garden/
 categories:
   - Gardening
+  - Personal
 ---
 Now that I have a spacious backyard I feel like I can experiment with growing my own vegetables.  It&#8217;s something I&#8217;ve always wanted to do and what better time than now?  I started by purchasing some heirloom seeds; I bought tomato, red bell peppers, zucchini, carrots, onion, basil, rosemary, spinach, lettuce and a few other things from Baker Creek.
 

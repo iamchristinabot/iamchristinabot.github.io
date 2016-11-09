@@ -4,8 +4,9 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
+    {% unless page.header == false %}
+      {% include header.html %}
+    {% endunless %}
 
     <div class="page-content">
       {{ content }}

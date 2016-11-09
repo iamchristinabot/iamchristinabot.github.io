@@ -1,44 +1,8 @@
-
-/*  START Nav Style  */
-
 nav {
-  color: #c4c4c4;
-  padding: 6px 0px 20px 0px;
-  font-weight: bold;
-  position: relative;
-  ul {
-    margin: 0;
-    list-style: none;
-    li {
-      float: left;
-      position: relative;
-      display: list-item;
-      a {
-        display: block;
-        background: transparent url(../images/nav.png) no-repeat scroll 0 0;
-        margin: 0px 10px 0 0;
-        height: 25px;
-        text-indent: -3000px;
-        &#nav_work {
-          background-position: 0 0;
-          margin-right: 30px;
-          width: 54px;
-        }
-        &#nav_about {
-          background-position: -83px 0;
-          margin-right: 30px;
-          width: 83px;
-        }
-        &#nav_blog {
-          background-position: -174px 0;
-          margin-right: 30px;
-          width: 42px;
-        }
-        &#nav_contact {
-          background-position: -247px 0;
-          width: 75px;
-        }
-      }
-    }
-  }
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 20px;
 }

@@ -35,11 +35,11 @@ body{
 }
 
 h1, h2, h3, h4, h5{
+  color: #999999;
   line-height: 1.5;
 }
 
 h1, h2 {
-  color: #222222;
   font-size: 2.441em;
   letter-spacing: .75px;
   font-weight: normal;
@@ -50,7 +50,6 @@ h1, h2 {
 }
 
 h3 {
-  color: #888888;
   font-weight: normal;
   font-size: 1.953em;
   letter-spacing: .75px;
@@ -61,7 +60,6 @@ h3 {
 }
 
 h4 {
-  color: #999999;
   font-weight: normal;
   font-size: 1.563em;
   letter-spacing: 0px;
@@ -72,7 +70,6 @@ h4 {
 }
 
 h5 {
-  color: #444444;
   font-weight: normal;
   font-size: 1.25em;
   letter-spacing: -1px;

@@ -3,32 +3,28 @@ layout: default
 title: Christina Dobi | Designer and Front-end Developer
 header: false
 ---
-<div id="home">
-  <video id="bgvid" preload="auto" poster="images/video-still.jpg" autoplay playsinline loop muted>
-    <source src="video/christinadobi-video.mp4" type="video/webm">
-    <source src="video/christinadobi-video.mp4" type="video/mp4">
-  </video>
 
-  <div id="red"></div>
-  <div class="home">
-    <div class="console">
-      <div class="text">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-10 col-centered text-center">
-              <div class="fadeInUp"><img src="images/hello.png" class="img-responsive hello"/>
-                <p>I’m Christina Dobi, an interface designer, developer and UX consultant, currently full-time at Gerson Lehrman Group in New York City.</p>
-              </div>
-              <div class="fadeIn social-icons">
-                <a href="https://www.instagram.com/iamchristinabot" target="_blank">Instagram</a>
-                <a href="https://www.twitter.com/iamchristinabot" target="_blank">Twitter</a>
-                <a href="https://www.linkedin.com/in/christinadobi" target="_blank">LinkedIn</a>
-                <a href="mailto:iamchristinabot@gmail.com">Email</a>
-              </div>
-            </div>
-          </div>
-        </div>
+<div class="hero">
+  <div class="text-wrap">
+    <div class="text text-center">
+      <div class="fadeInUp">
+        <img src="images/hello.png" class="img-responsive hello"/>
+        <h4 class="about-me">I’m Christina Dobi, an interface designer, developer and UX consultant. I'm currently working full-time at GLG in New York City.</h4>
+      </div>
+      <div class="fadeIn home-nav">
+        <h5>
+          <a href="{{ site.url | prepend: site.baseurl }}/about/">About</a>
+          <a href="{{ site.url | prepend: site.baseurl }}/blog/">Blog</a>
+          <a href="mailto:iamchristinabot@gmail.com">Connect</a>
+        </h5>
       </div>
     </div>
   </div>
+</div>
+<div id="overlay"></div>
+<div class="video">
+  <video class="hidden-xs" autoplay loop muted>
+    <source src="video/christinadobi-video.mp4" type="video/webm">
+    <source src="video/christinadobi-video.mp4" type="video/mp4">
+  </video>
 </div>

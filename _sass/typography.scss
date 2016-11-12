@@ -24,6 +24,7 @@ body{
   color: #333333;
   font-family: "source-sans-pro", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
   font-style: normal;
+  font-size: 16px;
   font-weight: 200;
   line-height: 1.6;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
@@ -33,49 +34,52 @@ body{
   font-weight: bold;
 }
 
+h1, h2, h3, h4, h5{
+  line-height: 1.5;
+}
+
 h1, h2 {
   color: #222222;
-  font-size: 50px;
+  font-size: 2.441em;
   letter-spacing: .75px;
-  line-height: 54px;
-  font-weight: bold;
+  font-weight: normal;
   margin: 0;
+  @include breakp($bp-medium){
+    font-size: 3.157em;
+  }
 }
 
 h3 {
   color: #888888;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.953em;
   letter-spacing: .75px;
-  line-height: 24px;
   margin: 0 0 3px;
+  @include breakp($bp-medium){
+    font-size: 2.369em;
+  }
 }
 
 h4 {
   color: #999999;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.563em;
   letter-spacing: 0px;
-  line-height: 24px;
   margin: 5px 0px 8px 0px;
+  @include breakp($bp-medium){
+    font-size: 1.777em;
+  }
 }
 
 h5 {
   color: #444444;
-  font-weight: bold;
-  font-size: 24px;
-  letter-spacing: -1px;
-  line-height: 24px;
-  margin: 0 0 3px;
-}
-
-h6 {
-  color: #555555;
-  font-size: 17px;
   font-weight: normal;
-  letter-spacing: 0;
-  line-height: 24px;
-  margin: 9px 0 18px;
+  font-size: 1.25em;
+  letter-spacing: -1px;
+  margin: 0 0 3px;
+  @include breakp($bp-medium){
+    font-size: 1.333em;
+  }
 }
 
 .ital {
@@ -84,9 +88,11 @@ h6 {
 
 p {
   color: #888888;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875em;
   margin: 0 0 16px;
+  @include breakp($bp-medium){
+    font-size: 1em;
+  }
 }
 
 sup {

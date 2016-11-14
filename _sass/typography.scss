@@ -1,21 +1,32 @@
 @font-face {
-  font-family: 'source-sans-pro';
-  src: url('../fonts/SourceSansPro-Light.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/SourceSansPro-Light.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/SourceSansPro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/SourceSansPro-Light.svg#dd3b7a876484172d97db2422648cdc50') format('svg'); /* Legacy iOS */
+  font-family: 'lora';
+  src: url('../fonts/Lora/Lora-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Lora/Lora-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Lora/Lora-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Lora/Lora-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Lora/Lora-Regular.svg#dd3b7a876484172d97db2422648cdc50') format('svg'); /* Legacy iOS */
   font-style:   normal;
   font-weight:  200;
 }
 
 @font-face {
   font-family: 'source-sans-pro';
-  src: url('../fonts/SourceSansPro-Semibold.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/SourceSansPro-Semibold.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/SourceSansPro-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/SourceSansPro-Semibold.svg#f7754f3658eb134b622c7e70e8b7751b') format('svg'); /* Legacy iOS */
+  src: url('../fonts/Source_Sans_Pro/SourceSansPro-Light.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Source_Sans_Pro/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Source_Sans_Pro/SourceSansPro-Light.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Source_Sans_Pro/SourceSansPro-Light.svg#dd3b7a876484172d97db2422648cdc50') format('svg'); /* Legacy iOS */
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'source-sans-pro';
+  src: url('../fonts/Source_Sans_Pro/SourceSansPro-Semibold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Source_Sans_Pro/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Source_Sans_Pro/SourceSansPro-Semibold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Source_Sans_Pro/SourceSansPro-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Source_Sans_Pro/SourceSansPro-Semibold.svg#f7754f3658eb134b622c7e70e8b7751b') format('svg'); /* Legacy iOS */
   font-style:   normal;
   font-weight:  bold;
 }
@@ -35,14 +46,15 @@ body{
 }
 
 h1, h2, h3, h4, h5{
-  color: #999999;
-  line-height: 1.5;
+  font-family: "lora", serif;
+  color: #555;
+  font-style: normal;
 }
 
 h1, h2 {
   font-size: 2.441em;
-  letter-spacing: .75px;
   font-weight: normal;
+  line-height: 1.1;
   margin: 0;
   @include breakp($bp-medium){
     font-size: 3.157em;
@@ -52,7 +64,7 @@ h1, h2 {
 h3 {
   font-weight: normal;
   font-size: 1.953em;
-  letter-spacing: .75px;
+  line-height: 1.1;
   margin: 0 0 3px;
   @include breakp($bp-medium){
     font-size: 2.369em;
@@ -62,7 +74,7 @@ h3 {
 h4 {
   font-weight: normal;
   font-size: 1.563em;
-  letter-spacing: 0px;
+  line-height: 1.5;
   margin: 5px 0px 8px 0px;
   @include breakp($bp-medium){
     font-size: 1.777em;
@@ -72,7 +84,7 @@ h4 {
 h5 {
   font-weight: normal;
   font-size: 1.25em;
-  letter-spacing: -1px;
+  line-height: 1.5;
   margin: 0 0 3px;
   @include breakp($bp-medium){
     font-size: 1.333em;
@@ -84,7 +96,7 @@ h5 {
 }
 
 p {
-  color: #888888;
+  color: $body-color;
   font-size: 0.875em;
   margin: 0 0 16px;
   @include breakp($bp-medium){

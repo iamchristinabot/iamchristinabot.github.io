@@ -1,6 +1,7 @@
 <li class="card">
   <a href="{{ post.url | prepend: site.baseurl }}">
     <h3 class="title">{{ post.title }}</h3>
+    <p class="muted timestamp">{{ post.date | date: '%B %d, %Y' }}</p>
     <p>{{post.excerpt}}</p>
   </a>
   <a href="{{ post.url | prepend: site.baseurl }}">

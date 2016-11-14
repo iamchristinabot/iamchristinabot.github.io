@@ -95,6 +95,10 @@ h5 {
   font-style: italic;
 }
 
+.muted{
+  color: lighten( $body-color, 20% );
+}
+
 p {
   color: $body-color;
   font-size: 0.875em;

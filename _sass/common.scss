@@ -4,7 +4,11 @@ a {
   }
   &:link, &:active, &:visited {
     text-decoration: none;
-    color: #ff6659;
+    color: $body-color;
+  }
+  &.brand:link, &.brand:active, &.brand:visited {
+    text-decoration: none;
+    color: $brand-color;
   }
   &:hover {
     text-decoration: none;
@@ -12,6 +16,9 @@ a {
   }
   &:focus {
     outline: none;
+  }
+  &.decorate:hover{
+    text-decoration: underline;
   }
 }
 

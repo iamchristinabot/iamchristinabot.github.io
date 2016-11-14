@@ -1,6 +1,14 @@
 #posts{
+  .amp{
+    padding: 0 5px;
+  }
   .breadcrumb{
     background-color: transparent;
     padding: 10px 0;
+  }
+  .sidebar{
+    .first{
+      margin-top: 10px;
+    }
   }
 }

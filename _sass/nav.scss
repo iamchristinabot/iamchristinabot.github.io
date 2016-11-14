@@ -5,4 +5,11 @@ nav {
   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 20px;
+  .monogram{
+    max-width: 50px;
+    @include opacity(.7);
+  }
+  a, a:link, a:active, a:hover, a:visited{
+    margin: 0 10px;
+  }
 }

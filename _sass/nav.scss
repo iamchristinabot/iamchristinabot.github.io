@@ -12,4 +12,11 @@ nav {
   a, a:link, a:active, a:hover, a:visited{
     margin: 0 10px;
   }
+  a{
+    display: inline-block;
+  }
+  .page-link{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }

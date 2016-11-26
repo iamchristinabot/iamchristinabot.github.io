@@ -1,6 +1,8 @@
 url: http://www.iamchristinabot.com/blog
-name: 'iamchristinabot.com - blog'
-description: Just another WordPress site
+name: 'iamchristinabot.com - Blog'
+description: Christina Dobi Blog
+# paginate: 10
+# paginate_path: /blog/page/:num
 
 sass:
   sass_dir: _sass

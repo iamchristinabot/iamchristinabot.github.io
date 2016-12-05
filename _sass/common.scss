@@ -136,3 +136,10 @@ ul.no-bullets {
   margin: 0;
   padding: 0;
 }
+
+section{
+  padding: 40px 0;
+  @include breakp($bp-medium){
+    padding: 60px 0;
+  }
+}

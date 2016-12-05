@@ -1,9 +1,48 @@
 ---
 layout: default
 title: Christina Dobi | Designer and Front-end Developer
+sidebar-categories: false
+sidebar-email: true
 ---
 <div id="about">
-  <div id="instagram" class="text-center"></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <section>
+          <h3 class="text-center fadeInUp">
+            I'm an interface designer and developer focused on creating positive user experiences.
+          </h3>
+        </section>
+      </div>
+    </div>
+    <div class="row fadeIn">
+      <div class="col-sm-8">
+        <p>I have a passion for organizing data in the simplest way possible and I believe design is about effectively communicating ideas and reaching goals. I make decisions based on results of testing and I live for the challenge in finding better solutions. I built my first website in 1998 and have been fascinated with the web ever since. Oh, and I couldn't live in a world without GitHub.</p>
+        <p>
+          Specialties: Interaction Design, User Interface Design, Front-end Development, User Experience
+          <br>
+          Currently Learning: SQL
+        </p>
+        <div class="row">
+          <div class="col-sm-5 col-centered text-center">
+            <hr>
+            <h5>Latest on Instagram</h5>
+            <br>
+          </div>
+        </div>
+
+        <div id="instagram" class="text-center"></div>
+        <br>
+        <br>
+
+      </div>
+      <div class="col-sm-4">
+        {% include post-sidebar.html %}
+      </div>
+    </div>
+  </div>
+
 </div>
 <script type="text/javascript" src="{{ base }}/js/instafeed.js"></script>
 
@@ -15,6 +54,7 @@ title: Christina Dobi | Designer and Front-end Developer
     accessToken: '6758376.1677ed0.0284f94a6e114d5896c1fc9d582b243d',
     target: 'instagram',
     resolution: 'standard_resolution',
+    limit: 9,
     after: function() {
       var el = document.getElementById('instagram');
       if (el.classList)

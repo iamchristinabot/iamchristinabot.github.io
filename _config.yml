@@ -1,9 +1,16 @@
-url: http://www.iamchristinabot.com/blog
+# Site settings
+url: http://www.iamchristinabot.com
 name: 'iamchristinabot.com - Blog'
 description: Christina Dobi Blog
-# paginate: 10
-# paginate_path: /blog/page/:num
+github_repo: iamchristinabot/iamchristinabot.github.io
+paginate: 10
+paginate_path: /blog/page/:num
 
+# Gems
+gems:
+  - jekyll-paginate
+
+# Build Settings
 sass:
   sass_dir: _sass
   style: compressed

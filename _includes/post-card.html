@@ -1,7 +1,10 @@
 <li class="card">
   <a href="{{ post.url | prepend: site.baseurl }}">
-    <h3 class="title">{{ post.title }}</h3>
+    <h4 class="title">{{ post.title }}</h4>
     <p class="muted timestamp">{{ post.date | date: '%B %d, %Y' }}</p>
+    {% if post.image %}
+        <img src="{{post.image}}" class="img-responsive">
+    {% endif %}
     <p>{{post.excerpt}}</p>
   </a>
   <a href="{{ post.url | prepend: site.baseurl }}">

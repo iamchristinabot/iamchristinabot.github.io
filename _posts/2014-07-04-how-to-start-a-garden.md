@@ -4,6 +4,7 @@ title: How to start from seeds for a garden
 date: 2014-07-04T00:56:30+00:00
 author: admin
 layout: post
+image: http://www.iamchristinabot.com/blog/wp-content/uploads/2014/07/photo-1-2.jpg
 guid: http://www.iamchristinabot.com/blog/?p=313
 permalink: /blog/20140704/how-to-start-a-garden/
 categories:

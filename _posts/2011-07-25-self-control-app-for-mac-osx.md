@@ -16,9 +16,9 @@ Self Control is a simple OS X application that allows you to blacklist certain w
 
 * * *
 
-<img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/07/Screen-shot-2011-07-25-at-7.03.34-PM.png" alt="" title="Screen shot 2011-07-25 at 7.03.34 PM" width="632" height="232" class="aligncenter size-full wp-image-129" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/07/Screen-shot-2011-07-25-at-7.03.34-PM.png 632w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/07/Screen-shot-2011-07-25-at-7.03.34-PM-300x110.png 300w" sizes="(max-width: 632px) 100vw, 632px" />
+<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2011/07/Screen-shot-2011-07-25-at-7.03.34-PM.png" alt="" title="Screen shot 2011-07-25 at 7.03.34 PM" width="632" height="232" class="aligncenter size-full wp-image-129" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/07/Screen-shot-2011-07-25-at-7.03.34-PM.png 632w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/07/Screen-shot-2011-07-25-at-7.03.34-PM-300x110.png 300w" sizes="(max-width: 632px) 100vw, 632px" />
 
-<img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/07/Screen-shot-2011-07-25-at-6.00.26-PM.png" alt="" title="Self Control Application" width="228" height="121" class="aligncenter size-full wp-image-128" /></p>
+<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2011/07/Screen-shot-2011-07-25-at-6.00.26-PM.png" alt="" title="Self Control Application" width="228" height="121" class="aligncenter size-full wp-image-128" /></p>
 
 * * *You can also ask Self Control to only allow certain domains to be accessed during a certain period of time, which is like the supreme way to focus.</p>
 

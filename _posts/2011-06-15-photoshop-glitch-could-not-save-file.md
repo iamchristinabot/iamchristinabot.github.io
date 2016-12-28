@@ -16,6 +16,6 @@ If you&#8217;re on a mac getting this error, try this for a solution:
 
 Force Quit on Finder so that it restarts.
 
-<img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/06/forcequit.png" alt="" title="forcequit" width="395" height="333" class="aligncenter size-full wp-image-103" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/06/forcequit.png 395w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/06/forcequit-300x252.png 300w" sizes="(max-width: 395px) 100vw, 395px" />
+<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2011/06/forcequit.png" alt="" title="forcequit" width="395" height="333" class="aligncenter size-full wp-image-103" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/06/forcequit.png 395w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/06/forcequit-300x252.png 300w" sizes="(max-width: 395px) 100vw, 395px" />
 
 There may be several solutions, so this may not necessarily be the fix for you, but give it a shot!

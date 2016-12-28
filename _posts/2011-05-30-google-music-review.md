@@ -15,7 +15,7 @@ With Google Music, you can listen to your music from anywhere you have an intern
   
 Super nice minimal UI, everything is where it&#8217;s expected it to be. I&#8217;m a fan of the transitions between views and the classy hover effects.
 
-<img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.13.47-PM-1024x595.png" alt="" title="Screen shot 2011-05-26 at 10.13.47 PM" width="480" height="278" class="aligncenter size-large wp-image-81" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.13.47-PM-1024x595.png 1024w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.13.47-PM-300x174.png 300w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.13.47-PM.png 1471w" sizes="(max-width: 480px) 100vw, 480px" />
+<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.13.47-PM-1024x595.png" alt="" title="Screen shot 2011-05-26 at 10.13.47 PM" width="480" height="278" class="aligncenter size-large wp-image-81" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.13.47-PM-1024x595.png 1024w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.13.47-PM-300x174.png 300w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.13.47-PM.png 1471w" sizes="(max-width: 480px) 100vw, 480px" />
 
 Left side of the application displays options where you can select to view by &#8220;Song&#8221;, &#8220;Author&#8221;, &#8220;Album&#8221;, &#8220;Genre&#8221;, &#8220;New&#8221;, &#8220;Thumbs Up&#8221; or playlists. When one of those is selected the right column populates with a detailed view in album cover view except for song title which will give you a neat sortable table.
 
@@ -27,7 +27,7 @@ The only qualm I have is that I didn&#8217;t know songs could be played by doubl
   
 I often have a hard time finding the play button on iTunes pretty frequently but don&#8217;t think I could ever have that problem here since the icon flashes as the song plays.
   
-<img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.54.35-PM.png" alt="" title="Screen shot 2011-05-26 at 10.54.35 PM" width="177" height="34" class="aligncenter size-full wp-image-83" />
+<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.54.35-PM.png" alt="" title="Screen shot 2011-05-26 at 10.54.35 PM" width="177" height="34" class="aligncenter size-full wp-image-83" />
 
 * * *
 
@@ -47,7 +47,7 @@ When using the web app, keyboard controls cannot be accessed if the tab isn&#821
   
 Can&#8217;t think of any form of this feature in iTunes, I&#8217;d hope that right clicking the iTunes doc would but it doesn&#8217;t so I think this feature is pretty nice.
   
-<img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.29.40-PM.png" alt="" title="Screen shot 2011-05-26 at 10.29.40 PM" width="218" height="49" class="aligncenter size-full wp-image-80" />
+<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.29.40-PM.png" alt="" title="Screen shot 2011-05-26 at 10.29.40 PM" width="218" height="49" class="aligncenter size-full wp-image-80" />
 
 * * *
 
@@ -55,7 +55,7 @@ Can&#8217;t think of any form of this feature in iTunes, I&#8217;d hope that rig
   
 I&#8217;m a big advocate of using the iTunes 5 star rating and make an effort to rate every song in my music collection. Every couple of weeks I delete stars with one star because lets be serious who wants to hear songs they don&#8217;t even like? Anyway, this rating system is too limited for me though.
   
-<img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.32.17-PM.png" alt="" title="Screen shot 2011-05-26 at 10.32.17 PM" width="78" height="161" class="aligncenter size-full wp-image-82" />
+<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-26-at-10.32.17-PM.png" alt="" title="Screen shot 2011-05-26 at 10.32.17 PM" width="78" height="161" class="aligncenter size-full wp-image-82" />
 
 * * *
 
@@ -63,11 +63,11 @@ I&#8217;m a big advocate of using the iTunes 5 star rating and make an effort to
   
 Resizing browser hides the controls for volume shuffle and repeat.
   
-<img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-27-at-12.07.48-AM.png" alt="" title="Screen shot 2011-05-27 at 12.07.48 AM" width="136" height="84" class="aligncenter size-full wp-image-85" />
+<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-27-at-12.07.48-AM.png" alt="" title="Screen shot 2011-05-27 at 12.07.48 AM" width="136" height="84" class="aligncenter size-full wp-image-85" />
 
 Site is unusable if sized down too small.
   
-<img src="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-27-at-12.10.14-AM.png" alt="" title="Screen shot 2011-05-27 at 12.10.14 AM" width="524" height="190" class="aligncenter size-full wp-image-86" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-27-at-12.10.14-AM.png 524w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-27-at-12.10.14-AM-300x108.png 300w" sizes="(max-width: 524px) 100vw, 524px" />
+<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-27-at-12.10.14-AM.png" alt="" title="Screen shot 2011-05-27 at 12.10.14 AM" width="524" height="190" class="aligncenter size-full wp-image-86" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-27-at-12.10.14-AM.png 524w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/05/Screen-shot-2011-05-27-at-12.10.14-AM-300x108.png 300w" sizes="(max-width: 524px) 100vw, 524px" />
 
 * * *
 

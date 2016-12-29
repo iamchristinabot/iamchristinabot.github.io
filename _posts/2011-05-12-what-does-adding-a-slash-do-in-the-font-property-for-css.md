@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=67
 permalink: /blog/20110512/what-does-adding-a-slash-do-in-the-font-property-for-css/
 categories:
+  - Web Development
+tags:
   - 'HTML &amp; CSS'
-  - 'Web Development'
 ---
 This is actually a shorthand for font size (first metric) and line-height (second metric) and font-family.
 

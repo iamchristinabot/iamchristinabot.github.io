@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=90
 permalink: /blog/20110630/how-do-i-grant-permissions-on-mysql/
 categories:
+  - Web Development
+tags:
   - MySQL
-  - 'Web Development'
 ---
 Open Terminal
 

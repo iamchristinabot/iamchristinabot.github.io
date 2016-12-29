@@ -7,10 +7,11 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=27
 permalink: /blog/20110325/how-do-i-fix-rough-edges-in-ie7-when-fading-in-out-using-jquery/
 categories:
+  - Web Development
+tags:
   - Bugs, Ew!
   - 'HTML &amp; CSS'
   - Javascript
-  - 'Web Development'
 ---
 You may have noticed some cruddy black dots surrounding text or what looks like a black outline or border when fading in and out with Internet Explorer 7. This is actually a bug but before you go crazy, here&#8217;s the fix.
 

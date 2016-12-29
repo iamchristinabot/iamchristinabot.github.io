@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=163
 permalink: /blog/20120117/count-number-of-list-items-with-jquery/
 categories:
+  - Web Development
+tags:
   - Javascript
-  - 'Web Development'
 ---
 So you want to know how many items are in that list:
 

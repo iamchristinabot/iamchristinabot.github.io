@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=23
 permalink: /blog/20110321/how-do-i-make-images-flexible-height-and-width/
 categories:
+  - Web Development
+tags:
   - 'HTML &amp; CSS'
-  - 'Web Development'
 ---
 This is easy stuff.
 

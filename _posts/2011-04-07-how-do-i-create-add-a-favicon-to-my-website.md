@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=26
 permalink: /blog/20110407/how-do-i-create-add-a-favicon-to-my-website/
 categories:
+  - Web Development
+tags:
   - 'HTML &amp; CSS'
-  - 'Web Development'
 ---
 There are two ways to do this.
 

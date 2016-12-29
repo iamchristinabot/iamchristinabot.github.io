@@ -8,6 +8,7 @@ guid: http://www.iamchristinabot.com/blog/?p=145
 permalink: /blog/20110924/comments-on-the-new-facebook-timeline-interface/
 categories:
   - Design
+tags:
   - User Experience
 ---
 This past week, Facebook announced a total overhaul of user profiles and also released a beta version to Developers. I took a peak at my account with the new style and felt pretty bombarded by four columns, tickers, chat lists at least three containers for navigation but it&#8217;s okay, I can handle it &#8211; my real concern is with eye tracking and the timeline.

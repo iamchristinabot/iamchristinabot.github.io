@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=162
 permalink: /blog/20120115/ie-displays-white-space-above-and-below-a-tag-and-linked-images/
 categories:
+  - Web Development
+tags:
   - Bugs, Ew!
-  - 'Web Development'
 ---
 I recently made a gallery with a bunch of image thumbnails laid out in multiple rows, each one linked to the larger image but when I tested in IE7 I noticed some white space in between the rows.  The reason for this is that IE adds a default line-height of 16px, so if the images or navigation items or horizontal rules (whatever it may be) is smaller than that, you&#8217;ll have to manually set the css for this object like so:
 

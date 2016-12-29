@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=130
 permalink: /blog/20110726/how-do-i-tell-my-users-to-upgrade-from-ie6/
 categories:
+  - Web Development
+tags:
   - 'HTML &amp; CSS'
-  - 'Web Development'
 ---
 It&#8217;s almost impossible to get every site working properly on IE6 and with the way it renders HTML & CSS what developer in their right mind would even want to try? I wrote a little HTML & CSS to target users on IE6, in hopes that some of them will upgrade to something a bit more current.
 

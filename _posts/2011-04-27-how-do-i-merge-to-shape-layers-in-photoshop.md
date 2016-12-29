@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=52
 permalink: /blog/20110427/how-do-i-merge-to-shape-layers-in-photoshop/
 categories:
-  - Photoshop
-  - Design
+  - 'Design'
+tags:
+  - 'Photoshop'
 ---
 All these years and I had no idea that I could do this, well here&#8217;s how it&#8217;s done.
 

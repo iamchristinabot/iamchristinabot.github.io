@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=59
 permalink: /blog/20110429/how-do-i-make-my-first-git-commit/
 categories:
+  - Web Development
+tags:
   - Git
-  - 'Web Development'
 ---
 Started using git to backup for the code on my website, here&#8217;s how I made my first commit =]
 

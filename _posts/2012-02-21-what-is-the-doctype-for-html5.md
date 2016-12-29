@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=178
 permalink: /blog/20120221/what-is-the-doctype-for-html5/
 categories:
+  - Web Development
+tags:
   - HTML5
-  - 'Web Development'
 ---
 The first line of your HTML5 file should include a doctype, it is case-sensitive with html in all lower case. The doctype tells the browser which specific rendering mode to use and sets the guidelines for HTML validation. If you are writing HTML5, you&#8217;ll want to use the following tag:
 

@@ -7,8 +7,10 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=89
 permalink: /blog/20110530/how-do-i-list-databases-in-mysql/
 categories:
+  - Web Development
+tags:
   - MySQL
-  - 'Web Development'
+  - SQL
 ---
 To list database type the following command
 

@@ -7,8 +7,7 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=60
 permalink: /blog/20110427/how-do-i-display-hidden-files-in-mac-finder/
 categories:
-  - Mac OS X
-  - Work Life
+  - 'Work Life'
 ---
 To turn on hidden files in finder, open Terminal and paste the following:
 

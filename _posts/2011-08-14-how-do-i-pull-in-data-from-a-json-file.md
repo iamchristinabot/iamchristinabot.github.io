@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=136
 permalink: /blog/20110814/how-do-i-pull-in-data-from-a-json-file/
 categories:
+  - Web Development
+tags:
   - Javascript
-  - 'Web Development'
 ---
 Now that you&#8217;ve [created a JSON file](http://www.iamchristinabot.com/blog/category/web-development/javascript/), you&#8217;ll want to use that data somewhere.
 

@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=65
 permalink: /blog/20110509/how-can-i-fix-clear-type-bug-in-ie7-cause-by-jquery-fadein-fadeout/
 categories:
+  - Web Development
+tags:
   - Bugs, Ew!
-  - 'Web Development'
 ---
 Before fading completing fadeIn, remove the filter attribute but I can&#8217;t fix the filter on fadeOut. I&#8217;ve tried everything, I&#8217;m just not sure how to do it&#8230;
 

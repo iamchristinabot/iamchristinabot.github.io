@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=17
 permalink: /blog/20110408/how-do-i-create-a-global-variable-with-javascript/
 categories:
+  - Web Development
+tags:
   - Javascript
-  - 'Web Development'
 ---
 **Global Variable vs. Local Variable**
 

@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=117
 permalink: /blog/20110724/how-do-i-create-a-new-database-and-import-sql-file/
 categories:
+  - Web Development
+tags:
   - MySQL
-  - 'Web Development'
 ---
 Open Terminal & Login.
 

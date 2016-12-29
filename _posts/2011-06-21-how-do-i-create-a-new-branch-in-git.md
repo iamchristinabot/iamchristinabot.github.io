@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=101
 permalink: /blog/20110621/how-do-i-create-a-new-branch-in-git/
 categories:
+  - Web Development
+tags:
   - Git
-  - 'Web Development'
 ---
 Open up your terminal and navigate to your website directory.
 

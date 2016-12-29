@@ -7,9 +7,10 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=16
 permalink: /blog/20110318/how-do-i-define-multiple-css-attribues-in-jquery/
 categories:
+  - Web Development
+tags:
   - 'HTML &amp; CSS'
-  - Javascript
-  - 'Web Development'
+  - 'Javascript'
 ---
 You can string up your classes this way.
 

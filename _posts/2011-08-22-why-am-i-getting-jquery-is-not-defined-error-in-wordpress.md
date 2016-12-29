@@ -7,9 +7,12 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=140
 permalink: /blog/20110822/why-am-i-getting-jquery-is-not-defined-error-in-wordpress/
 categories:
+  - Web Development
+tags:
   - Bugs, Ew!
   - WordPress
-  - 'Web Development'
+  - jQuery
+  - JavaScript
 ---
 It sounds like your script is being loaded before jQuery, a couple of things will help you fix this:
 

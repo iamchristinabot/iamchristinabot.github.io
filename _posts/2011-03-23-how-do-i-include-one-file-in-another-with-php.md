@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=25
 permalink: /blog/20110323/how-do-i-include-one-file-in-another-with-php/
 categories:
+  - Web Development
+tags:
   - PHP
-  - 'Web Development'
 ---
 This is my favorite approach to including one file in another, but it means your server has to be running PHP and all of your file names need to be named .php instead of .html. If you&#8217;re not sure if your web hosting runs PHP you&#8217;ll have to check with them otherwise you can follow these instructions to see if it works.
 

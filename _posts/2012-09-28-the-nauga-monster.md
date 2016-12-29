@@ -7,9 +7,10 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=203
 permalink: /blog/20120928/the-nauga-monster/
 categories:
-  - Design
-  - Inspiration
   - Personal
+  - Design
+tags:
+  - Inspiration
 ---
 One of these days I&#8217;m going to buy myself a Nauga Monster, you may not believe it but this little guy is vintage.
 

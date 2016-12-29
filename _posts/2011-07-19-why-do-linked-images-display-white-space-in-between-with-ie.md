@@ -7,9 +7,10 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=45
 permalink: /blog/20110719/why-do-linked-images-display-white-space-in-between-with-ie/
 categories:
+  - Web Development
+tags:
   - Bugs, Ew!
   - 'HTML &amp; CSS'
-  - 'Web Development'
 ---
 If you ever tried to display a row of linked images in a row, you may notice some white space in between them when viewing in Internet Explorer 7, this is because IE7 adds a default line-height of 16px which, in the case of seeing whitespace isn&#8217;t what you need.
 

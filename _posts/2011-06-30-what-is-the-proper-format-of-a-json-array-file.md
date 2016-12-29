@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=18
 permalink: /blog/20110630/what-is-the-proper-format-of-a-json-array-file/
 categories:
+  - Web Development
+tags:
   - Javascript
-  - 'Web Development'
 ---
 Well let&#8217;s start off by understanding what JSON is, JavaScript Object Notation. It&#8217;s a derivative of JavaScript that allows data to be passed between a server & a website in the form of objects. It&#8217;s similar to XML, except the JSON syntax is less invasive than XML and so it ends up having a bit of a smaller file size.
 

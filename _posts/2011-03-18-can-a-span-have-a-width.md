@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=15
 permalink: /blog/20110318/can-a-span-have-a-width/
 categories:
-  - 'HTML &amp; CSS'
-  - 'Web Development'
+  - Web Development
+tags:
+    - 'HTML &amp; CSS'
 ---
 **Yes.** Since a span tag is an inline element and it has &#8220;display:inline&#8221; as default, it doesn&#8217;t naturally have a width.
 

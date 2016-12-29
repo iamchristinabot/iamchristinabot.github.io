@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=181
 permalink: /blog/20120222/does-html5-need-an-html-tag/
 categories:
+  - Web Development
+tags:
   - HTML5
-  - 'Web Development'
 ---
 No it is not REQUIRED but yes, we should still use it, allow me to explain.
 

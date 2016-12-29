@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=61
 permalink: /blog/20110428/how-do-i-link-from-one-part-of-an-html-page-to-another/
 categories:
+  - Web Development
+tags:
   - 'HTML &amp; CSS'
-  - 'Web Development'
 ---
 This would be called using an HTML anchor tag and there are two parts to doing this.
 

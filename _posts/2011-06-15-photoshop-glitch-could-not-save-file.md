@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=100
 permalink: /blog/20110615/photoshop-glitch-could-not-save-file/
 categories:
-  - Photoshop
   - Design
+tags:
+  - Photoshop
 ---
 &#8220;Could not save (file name) because the file is already in use or left open.&#8221;
 

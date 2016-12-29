@@ -7,7 +7,6 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=124
 permalink: /blog/20110725/productivity-vs-social-networks/
 categories:
-  - Productivity
   - Work Life
 ---
 If you work at a computer for a living you need <a href="http://www.rescuetime.com" target="_blank"><strong>Rescue Time</strong></a>.

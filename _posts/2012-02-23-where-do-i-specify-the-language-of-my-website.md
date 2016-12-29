@@ -7,9 +7,10 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=182
 permalink: /blog/20120223/where-do-i-specify-the-language-of-my-website/
 categories:
+  - Web Development
+tags:
   - 'HTML &amp; CSS'
   - HTML5
-  - 'Web Development'
 ---
 According to W3C, you can add lang=&#8221;en&#8221; (for english) attribute to your HTML tag and this is still valid for HTML5.
 

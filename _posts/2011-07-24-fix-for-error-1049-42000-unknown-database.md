@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=112
 permalink: /blog/20110724/fix-for-error-1049-42000-unknown-database/
 categories:
+  - Web Development
+tags:
   - MySQL
-  - 'Web Development'
 ---
 I was trying to import a new database but kept getting this error ERROR 1049 (42000): Unknown database &#8216;MYDATABASE&#8217;, finally got it fixed&#8230; the error wasn&#8217;t with the syntax it was how I exported my database.
 

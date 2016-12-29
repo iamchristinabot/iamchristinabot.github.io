@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=75
 permalink: /blog/20110519/why-do-nested-html-paragraphs-break-css/
 categories:
+  - Web Development
+tags:
   - 'HTML &amp; CSS'
-  - 'Web Development'
 ---
 I tried something silly today&#8230; to find that it didn&#8217;t work, here&#8217;s what:
 

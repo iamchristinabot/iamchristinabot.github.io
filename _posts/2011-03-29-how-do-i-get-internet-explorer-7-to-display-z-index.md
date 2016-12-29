@@ -7,9 +7,10 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=38
 permalink: /blog/20110329/how-do-i-get-internet-explorer-7-to-display-z-index/
 categories:
+  - Web Development
+tags:
   - Bugs, Ew!
   - 'HTML &amp; CSS'
-  - 'Web Development'
 ---
 The ticker bar lower shadow displayed perfectly in Safari, Chrome & Firefox, but IE didn&#8217;t show it.
 

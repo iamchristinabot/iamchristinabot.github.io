@@ -8,6 +8,7 @@ guid: http://www.iamchristinabot.com/blog/?p=175
 permalink: /blog/20120213/eames-the-little-toy/
 categories:
   - Design
+tags:
   - Inspiration
 ---
 <img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2012/02/The-Little-Toy-Eames-1.jpg" alt="" title="The Little Toy Eames (1)" width="640" height="451" class="aligncenter size-full wp-image-177" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2012/02/The-Little-Toy-Eames-1.jpg 640w, http://www.iamchristinabot.com/blog/wp-content/uploads/2012/02/The-Little-Toy-Eames-1-300x211.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" />

@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=66
 permalink: /blog/20110512/how-do-i-use-css-shortcuts-for-background-image/
 categories:
+  - Web Development
+tags:
   - 'HTML &amp; CSS'
-  - 'Web Development'
 ---
 Here it is, the background properties all in one line &#8211; glorious.
 

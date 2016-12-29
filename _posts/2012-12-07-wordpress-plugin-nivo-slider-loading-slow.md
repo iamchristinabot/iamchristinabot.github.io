@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=215
 permalink: /blog/20121207/wordpress-plugin-nivo-slider-loading-slow/
 categories:
+  - Web Development
+tags:
   - WordPress
-  - 'Web Development'
 ---
 Nivo Slider is one of the best slider tools available for WordPress &#8230; until you&#8217;ve had too much fun and suddenly have too many images in it. So what do you do when Nivo Slider takes too long to load? Add a single line of CSS, hide any image that doesn&#8217;t need to be displayed initially.
 

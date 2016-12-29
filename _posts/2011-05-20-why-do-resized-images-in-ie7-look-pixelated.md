@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=76
 permalink: /blog/20110520/why-do-resized-images-in-ie7-look-pixelated/
 categories:
+  - Web Development
+tags:
   - Bugs, Ew!
-  - 'Web Development'
 ---
 When using width or height properties to resize images, IE will render a dirty pixelated image unless you correct the rendering type with CSS.
 

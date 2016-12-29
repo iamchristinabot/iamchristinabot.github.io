@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=96
 permalink: /blog/20110530/how-can-i-make-textarea-grow-without-breaking-the-horizontal-layout/
 categories:
+  - Web Development
+tags:
   - Javascript
-  - 'Web Development'
 ---
 Depending on the audience, letting users resize an input box isn&#8217;t always the best option, in addition, resizing in any direction can break a layout. That&#8217;s why I prefer [this auto-resizing jQuery plugin](http://plugins.jquery.com/project/autogrowtextarea)
 

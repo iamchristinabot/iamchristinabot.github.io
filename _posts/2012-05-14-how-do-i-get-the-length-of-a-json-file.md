@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=189
 permalink: /blog/20120514/how-do-i-get-the-length-of-a-json-file/
 categories:
+  - Web Development
+tags:
   - Javascript
-  - 'Web Development'
 ---
 First, you&#8217;ll have to [create a properly formatted JSON file](http://www.iamchristinabot.com/blog/category/web-development/javascript/). Once you&#8217;re done with that, getting the current number of objects from that list is a piece of cake.
 

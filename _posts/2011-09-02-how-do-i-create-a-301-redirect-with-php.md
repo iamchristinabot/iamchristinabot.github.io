@@ -7,9 +7,10 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=144
 permalink: /blog/20110902/how-do-i-create-a-301-redirect-with-php/
 categories:
+  - Web Development
+tags:
   - 'HTML &amp; CSS'
   - PHP
-  - 'Web Development'
 ---
 For old HTML files I&#8217;d typically create a 301 permanent redirect with apache by editing the .htaccess however when that isn&#8217;t an option, I use a meta redirect in the head tag like so:
 

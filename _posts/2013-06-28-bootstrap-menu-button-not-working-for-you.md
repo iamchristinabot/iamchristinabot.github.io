@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=223
 permalink: /blog/20130628/bootstrap-menu-button-not-working-for-you/
 categories:
+  - Web Development
+tags:
   - Bootstrap
-  - 'Web Development'
 ---
 There&#8217;s a couple things you should know about the bootstrap menu icon, if it&#8217;s not working for you chances are one of these things is off.
 

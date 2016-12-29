@@ -7,8 +7,7 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=51
 permalink: /blog/20110419/steve-jobs-quote/
 categories:
-  - Personal
-  - Work Life
+  - 'Personal'
 ---
 I love this steve jobs quote, from his speech at Stanford, I think about it often.
 

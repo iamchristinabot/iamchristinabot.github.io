@@ -7,7 +7,8 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=310
 permalink: /blog/20140703/why-doesnt-my-custom-class-appear-in-the-xcode-identity-inspector/
 categories:
+  - Web Development
+tags:
   - iOS
-  - 'Web Development'
 ---
 There are two quick fixes you can try, either type the name you created into the text field or close your project and open it back up.

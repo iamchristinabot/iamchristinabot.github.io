@@ -7,9 +7,10 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=28
 permalink: /blog/20110325/how-do-i-fix-edgy-text-in-firefox-from-jquerys-fadein-fadeout/
 categories:
+  - Web Development
+tags:
   - Bugs, Ew!
   - Javascript
-  - 'Web Development'
 ---
 If you are noticing a problem with text appearing light, crunchy or edgy in FireFox while fading in and out, you&#8217;ve found the cleartype bug! You&#8217;ll have to remove the filter property from the DOM. Try this:
 

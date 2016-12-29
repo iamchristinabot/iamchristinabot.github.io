@@ -7,10 +7,11 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=213
 permalink: /blog/20121129/nginx-504-gateway-time-out-in-wordpress/
 categories:
+  - Web Development
+tags:
   - Errors
   - PHP
   - WordPress
-  - 'Web Development'
 ---
 I got this error after changing a template on one of the pages on my local machine, but as it turns out, the template had nothing to do with the time-out. It was just a delayed reaction. Some things I immediately tried was restarting nginx and also increasing the PHP memory cache to 64MB but neither thing worked.
 

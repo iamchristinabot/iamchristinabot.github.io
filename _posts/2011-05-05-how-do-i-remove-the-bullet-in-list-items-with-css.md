@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=63
 permalink: /blog/20110505/how-do-i-remove-the-bullet-in-list-items-with-css/
 categories:
+  - Web Development
+tags:
   - 'HTML &amp; CSS'
-  - 'Web Development'
 ---
 Just when I thought I had removed the bullet&#8230; I found it still there in IE7. Best way to remove the stupid thing once and for all is to add list style type to both the UL and LI items.
 

@@ -7,8 +7,9 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=22
 permalink: /blog/20110322/how-do-i-include-one-html-file-in-a-another-html-includes/
 categories:
+  - Web Development
+tags:
   - 'HTML &amp; CSS'
-  - 'Web Development'
 ---
 I recently used HTML (Server Side) Includes to convert an old iFrame site into a table-less iframe-less site. Here&#8217;s a quick bit on how to do this.
 

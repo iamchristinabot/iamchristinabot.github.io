@@ -7,9 +7,10 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=68
 permalink: /blog/20110514/why-isnt-my-css-class-working-in-hover-or-active-state-of-a-link/
 categories:
+  - Web Development
+tags:
   - Bugs, Ew!
   - 'HTML &amp; CSS'
-  - 'Web Development'
 ---
 One of the reasons your active or hover state isn&#8217;t working is because there is actually a particular order for pseudo-classes (link, visited, hover, active) in CSS. If they aren&#8217;t in the proper order, they won&#8217;t work.
 

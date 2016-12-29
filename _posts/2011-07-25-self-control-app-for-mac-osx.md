@@ -6,8 +6,7 @@ author: admin
 layout: post
 guid: http://www.iamchristinabot.com/blog/?p=127
 permalink: /blog/20110725/self-control-app-for-mac-osx/
-categories:
-  - Productivity
+categories:  
   - Work Life
 ---
 Are you a Facebook Junkie? Well, good news&#8230; the first step to recovery is admitting that you have a problem. Next step is to download <a href="http://visitsteve.com/made/selfcontrol" target="_blank">Self Control App</a> by Steve Lambert.

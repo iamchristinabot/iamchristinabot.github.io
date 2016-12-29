@@ -7,8 +7,10 @@ layout: post
 guid: http://www.iamchristinabot.com/blog/?p=91
 permalink: /blog/20110530/how-do-i-export-a-database-using-phpmyadmin/
 categories:
+  - Web Development
+tags:
   - MySQL
-  - 'Web Development'
+  - SQL
 ---
 Everyone&#8217;s setup is different so first you&#8217;ll have to get to the phpMyAdmin section on your web hosting server. With Dreamhost it was easy, under &#8220;Goodies&#8221; click &#8220;MySQL Databases&#8221; and then in the right column you&#8217;ll see a link for PHPMyAdmin, click that and login.
 

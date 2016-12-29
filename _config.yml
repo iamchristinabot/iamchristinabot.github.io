@@ -5,6 +5,10 @@ description: Christina Dobi Blog
 github_repo: iamchristinabot/iamchristinabot.github.io
 
 
+featured-tags: true
+featured-condition-size: 1
+
+
 # Gems
 gems:
   - jekyll-paginate

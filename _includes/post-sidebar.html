@@ -4,6 +4,12 @@
     <hr>
     {% include post-sidebar-categories.html %}
   {% endif %}
+
+  {% if page.sidebar-tags == true %}
+    <hr>
+    {% include post-sidebar-tags.html %}
+  {% endif %}
+
   {% if page.sidebar-email == true %}
     <hr>
     {% include post-sidebar-email.html %}

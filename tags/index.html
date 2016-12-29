@@ -1,0 +1,40 @@
+---
+title: Tags
+layout: default
+---
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8 col-centered">
+
+			<div id='tag_cloud' class="tags">
+				{% for tag in site.tags %}
+				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" class="btn btn-default">{{ tag[0] }}</a>
+				{% endfor %}
+			</div>
+			<br>
+
+			{% for tag in site.tags %}
+			<div>
+		  	<h4 class="listing-seperator" id="{{ tag[0] }}">
+          <span class="tag-text">{{ tag[0] }}</span>
+        </h4>
+        <hr>
+				{% for post in tag[1] %}
+				 <div class="post-preview">
+			    <a href="{{ post.url | prepend: site.baseurl }}">
+		        <p class="post-title">
+              {{ post.title }}
+		        </p>
+			    </a>
+				</div>
+
+				{% endfor %}
+			</div>
+      <br>
+			{% endfor %}
+
+		</div>
+	</div>
+</div>

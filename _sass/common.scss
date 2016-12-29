@@ -155,3 +155,9 @@ section{
 .sidebar{
   @include opacity(.85);
 }
+
+#tag_cloud{
+  a{
+    margin: 2px;
+  }
+}

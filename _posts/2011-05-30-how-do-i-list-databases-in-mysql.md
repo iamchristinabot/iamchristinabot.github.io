@@ -10,7 +10,6 @@ categories:
   - Web Development
 tags:
   - MySQL
-  - SQL
 ---
 To list database type the following command
 

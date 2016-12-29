@@ -4,11 +4,15 @@ layout: default
 <div id="posts">
   <div class="container">
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-sm-12">
         <p class="breadcrumb">
-          <a href="{{ site.url | prepend: site.baseurl }}/blog/">Blog</a> <span class="amp">></span> {{page.title}}
+          <a href="{{ site.url | prepend: site.baseurl }}/blog/">Blog</a> <span class="amp">/</span> {{page.title}}
         </p>
 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8">
         <ul class="no-bullets">
           {% for post in site.categories[page.category] %}
             {% include post-card.html %}

@@ -12,7 +12,10 @@
       {{ content }}
     </div>
 
-    {% include footer.html %}
+    {% unless page.footer == false %}
+      {% include footer.html %}
+    {% endunless %}
+
     {% include scripts.html %}
 
   </body>

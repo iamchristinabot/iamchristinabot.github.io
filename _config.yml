@@ -4,11 +4,6 @@ name: 'iamchristinabot.com - Blog'
 description: Christina Dobi Blog
 github_repo: iamchristinabot/iamchristinabot.github.io
 
-
-featured-tags: true
-featured-condition-size: 1
-
-
 # Gems
 gems:
   - jekyll-paginate
@@ -16,8 +11,20 @@ gems:
   - jekyll-feed
 
 # Build Settings
-paginate: 10
-paginate_path: /blog/page/:num
 sass:
   sass_dir: _sass
   style: compressed
+
+# Site Features
+featured-tags: true
+featured-condition-size: 1
+paginate: 10
+paginate_path: /blog/page/:num
+
+# Configuration
+ga_track_id: UA-12642425-1
+twitter_id: iamchristinabot
+instagram_id: iamchristinabot
+pinterest_id: iamchristinabot
+linkedin_id: christinadobi
+mailto: iamchristinabot@gmail.com

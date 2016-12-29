@@ -25,7 +25,7 @@ a {
 body {
   margin: 0;
   padding: 0;
-  background-color: #fafafa;
+  background-color: #fff;
 }
 
 .col-centered{
@@ -135,6 +135,11 @@ ul.no-bullets {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.page-content{
+  background-color: #fafafa;
+  padding-top: 20px;
 }
 
 .pagination{

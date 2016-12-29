@@ -11,7 +11,7 @@ categories:
 tags:
   - User Experience
 ---
-This past week, Facebook announced a total overhaul of user profiles and also released a beta version to Developers. I took a peak at my account with the new style and felt pretty bombarded by four columns, tickers, chat lists at least three containers for navigation but it&#8217;s okay, I can handle it &#8211; my real concern is with eye tracking and the timeline.
+This past week, Facebook announced a total overhaul of user profiles and also released a beta version to Developers. I took a peek at my account with the new style and felt pretty bombarded by four columns, tickers, chat lists at least three containers for navigation but it&#8217;s okay, I can handle it &#8211; my real concern is with eye tracking and the timeline.
 
 Facebook turned their timeline into an actual &#8220;Timeline&#8221; &#8211; cute idea that just seems like a natural thing to do. I wish I could say the same for the interface execution but unfortunately, it just seems forced.
 

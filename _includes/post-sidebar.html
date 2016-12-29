@@ -1,5 +1,10 @@
 <div class="sidebar">
 
+  {% if page.sidebar-about == true %}
+    <hr>
+    {% include post-sidebar-about.html %}
+  {% endif %}
+
   {% if page.sidebar-categories == true %}
     <hr>
     {% include post-sidebar-categories.html %}

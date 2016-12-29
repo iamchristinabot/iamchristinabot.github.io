@@ -1,5 +1,5 @@
 #post{
-  min-height: 300px;
+  min-height: 400px;
   background-color: #fafafa;
   img{
     width: 100%;
@@ -9,7 +9,7 @@
     margin: 40px 0;
     @include breakp($bp-medium){
       padding: 40px;
-      margin-top: -50px;
+      margin-top: -40px;
       position: relative;
       z-index: 5;
 

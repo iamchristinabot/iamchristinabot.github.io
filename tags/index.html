@@ -4,10 +4,11 @@ layout: default
 ---
 
 <!-- Main Content -->
-<div class="container">
+<div id="tags">
+	<div class="container">
 	<div class="row">
 		<div class="col-sm-8 col-centered">
-
+			<br>
 			<div id='tag_cloud' class="tags">
 				{% for tag in site.tags %}
 				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" class="btn btn-default">{{ tag[0] }}</a>
@@ -18,7 +19,7 @@ layout: default
 			{% for tag in site.tags %}
 			<div>
 		  	<h4 class="listing-seperator" id="{{ tag[0] }}">
-          <span class="tag-text">{{ tag[0] }}</span>
+          <span class="fa fa-tag icon-tag"></span><span class="tag-text">{{ tag[0] }}</span>
         </h4>
         <hr>
 				{% for post in tag[1] %}
@@ -37,4 +38,5 @@ layout: default
 
 		</div>
 	</div>
+</div>
 </div>

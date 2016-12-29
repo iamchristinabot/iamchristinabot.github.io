@@ -1,0 +1,24 @@
+<div class="row pagination text-center">
+
+  {% if paginator.previous_page %}
+    <div class="col-xs-4">
+      <a href="{{ paginator.previous_page_path }}" class="previous btn btn-default">Previous</a>
+    </div>
+  {% else %}
+    <div class="col-xs-4">
+      <span class="previous">Previous</span>
+    </div>
+  {% endif %}
+    <div class="col-xs-4">
+      <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    </div>
+  {% if paginator.next_page %}
+    <div class="col-xs-4">
+      <a href="{{ paginator.next_page_path }}" class="next btn btn-default">Next</a>
+    </div>
+  {% else %}
+    <div class="col-xs-4">
+      <span class="next ">Next</span>
+    </div>
+  {% endif %}
+</div>

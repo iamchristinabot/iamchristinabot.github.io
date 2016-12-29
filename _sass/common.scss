@@ -137,6 +137,14 @@ ul.no-bullets {
   padding: 0;
 }
 
+.pagination{
+  display: block;
+  .page_number {
+    padding-top: 8px;
+    display: inline-block;
+  }
+}
+
 section{
   padding: 40px 0;
   @include breakp($bp-medium){

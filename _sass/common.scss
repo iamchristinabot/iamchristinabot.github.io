@@ -143,3 +143,7 @@ section{
     padding: 60px 0;
   }
 }
+
+.sidebar{
+  @include opacity(.85);
+}

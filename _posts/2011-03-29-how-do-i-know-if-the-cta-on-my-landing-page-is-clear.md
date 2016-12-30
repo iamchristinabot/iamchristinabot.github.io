@@ -11,7 +11,7 @@ categories:
 ---
 Use a blur test to see if your **call-to-action** is clear. I tested the headliner.fm homepage to see if I was able to find the sign up button, even if the text is unreadable. Sure enough, I found a few things that could be improved.
 
-<img class="aligncenter size-medium wp-image-34" title="headlienr_blur" src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2011/03/headlienr_blur-300x218.jpg" alt="" width="300" height="218" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/headlienr_blur-300x218.jpg 300w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/headlienr_blur.jpg 800w" sizes="(max-width: 300px) 100vw, 300px" />
+<img class="aligncenter size-medium wp-image-34" title="headlienr_blur" src="{{ site.url | prepend: site.baseurl }}/wp-content/uploads/2011/03/headlienr_blur-300x218.jpg" alt="" width="300" height="218" srcset="{{ site.url | prepend: site.baseurl }}/wp-content/uploads/2011/03/headlienr_blur-300x218.jpg 300w, {{ site.url | prepend: site.baseurl }}/wp-content/uploads/2011/03/headlienr_blur.jpg 800w" sizes="(max-width: 300px) 100vw, 300px" />
 
 <p style="text-align: center;">
   &nbsp;
@@ -23,6 +23,6 @@ Use a blur test to see if your **call-to-action** is clear. I tested the headlin
 
 Here&#8217;s the improved headliner homepage.
   
-[<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-28-at-5.46.32-PM-300x195.png" alt="" title="Screen shot 2011-03-28 at 5.46.32 PM" width="300" height="195" class="aligncenter size-medium wp-image-35" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-28-at-5.46.32-PM-300x195.png 300w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-28-at-5.46.32-PM-1024x668.png 1024w, http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-28-at-5.46.32-PM.png 1063w" sizes="(max-width: 300px) 100vw, 300px" />](http://www.iamchristinabot.com/blog/wp-content/uploads/2011/03/Screen-shot-2011-03-28-at-5.46.32-PM.png)
+[<img src="{{ site.url | prepend: site.baseurl }}/wp-content/uploads/2011/03/Screen-shot-2011-03-28-at-5.46.32-PM-300x195.png" alt="" title="Screen shot 2011-03-28 at 5.46.32 PM" width="300" height="195" class="aligncenter size-medium wp-image-35" srcset="{{ site.url | prepend: site.baseurl }}/wp-content/uploads/2011/03/Screen-shot-2011-03-28-at-5.46.32-PM-300x195.png 300w, {{ site.url | prepend: site.baseurl }}/wp-content/uploads/2011/03/Screen-shot-2011-03-28-at-5.46.32-PM-1024x668.png 1024w, {{ site.url | prepend: site.baseurl }}/wp-content/uploads/2011/03/Screen-shot-2011-03-28-at-5.46.32-PM.png 1063w" sizes="(max-width: 300px) 100vw, 300px" />]({{ site.url | prepend: site.baseurl }}/wp-content/uploads/2011/03/Screen-shot-2011-03-28-at-5.46.32-PM.png)
 
 I now have one clear call to action on the homepage, moving on to other things.

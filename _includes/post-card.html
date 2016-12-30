@@ -3,7 +3,7 @@
     <h4 class="title">{{ post.title }}</h4>
     <p class="muted timestamp">{{ post.date | date: '%B %d, %Y' }}</p>
     {% if post.image %}
-        <img src="{{post.image}}" class="img-responsive">
+        <img src="{{ site.url | prepend: site.baseurl }}{{post.image}}" class="img-responsive">
     {% endif %}
     <p>{{post.excerpt}}</p>
   </a>

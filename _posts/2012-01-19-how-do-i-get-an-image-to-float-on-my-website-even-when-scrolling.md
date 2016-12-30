@@ -31,4 +31,4 @@ Then we drop in some CSS, setting the image as a centered background and give th
 
 Here&#8217;s what it looks like:
 
-<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2012/01/image-floating-in-browser-window.png" alt="" title="image floating in browser window" width="645" height="268" class="aligncenter size-full wp-image-171" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2012/01/image-floating-in-browser-window.png 645w, http://www.iamchristinabot.com/blog/wp-content/uploads/2012/01/image-floating-in-browser-window-300x124.png 300w" sizes="(max-width: 645px) 100vw, 645px" />
+<img src="{{ site.url | prepend: site.baseurl }}/wp-content/uploads/2012/01/image-floating-in-browser-window.png" alt="" title="image floating in browser window" width="645" height="268" class="aligncenter size-full wp-image-171" srcset="{{ site.url | prepend: site.baseurl }}/wp-content/uploads/2012/01/image-floating-in-browser-window.png 645w, {{ site.url | prepend: site.baseurl }}/wp-content/uploads/2012/01/image-floating-in-browser-window-300x124.png 300w" sizes="(max-width: 645px) 100vw, 645px" />

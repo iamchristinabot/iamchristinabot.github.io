@@ -11,8 +11,8 @@ categories:
 tags:
   - Inspiration
 ---
-<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2012/02/The-Little-Toy-Eames-1.jpg" alt="" title="The Little Toy Eames (1)" width="640" height="451" class="aligncenter size-full wp-image-177" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2012/02/The-Little-Toy-Eames-1.jpg 640w, http://www.iamchristinabot.com/blog/wp-content/uploads/2012/02/The-Little-Toy-Eames-1-300x211.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" />
+<img src="{{ site.url | prepend: site.baseurl }}/wp-content/uploads/2012/02/The-Little-Toy-Eames-1.jpg" alt="" title="The Little Toy Eames (1)" width="640" height="451" class="aligncenter size-full wp-image-177" srcset="{{ site.url | prepend: site.baseurl }}/wp-content/uploads/2012/02/The-Little-Toy-Eames-1.jpg 640w, {{ site.url | prepend: site.baseurl }}/wp-content/uploads/2012/02/The-Little-Toy-Eames-1-300x211.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" />
 
-<img src="{{ site.url | prepend: site.baseurl }}/blog/wp-content/uploads/2012/02/The-Little-Toy-Eames-2.jpg" alt="" title="The Little Toy Eames" width="800" height="617" class="aligncenter size-full wp-image-176" srcset="http://www.iamchristinabot.com/blog/wp-content/uploads/2012/02/The-Little-Toy-Eames-2.jpg 800w, http://www.iamchristinabot.com/blog/wp-content/uploads/2012/02/The-Little-Toy-Eames-2-300x231.jpg 300w" sizes="(max-width: 800px) 100vw, 800px" />
+<img src="{{ site.url | prepend: site.baseurl }}/wp-content/uploads/2012/02/The-Little-Toy-Eames-2.jpg" alt="" title="The Little Toy Eames" width="800" height="617" class="aligncenter size-full wp-image-176" srcset="{{ site.url | prepend: site.baseurl }}/wp-content/uploads/2012/02/The-Little-Toy-Eames-2.jpg 800w, {{ site.url | prepend: site.baseurl }}/wp-content/uploads/2012/02/The-Little-Toy-Eames-2-300x231.jpg 300w" sizes="(max-width: 800px) 100vw, 800px" />
 
 Build geometric shapes with this vintage toy, designed by Charles & Ray Eames in 1952. The Little Toy was manufactured by Tigrett, featured colorful square and triangle pieces that can be arranged into 3D shapes.

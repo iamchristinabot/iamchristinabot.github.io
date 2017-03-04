@@ -16,11 +16,11 @@ It&#8217;s almost impossible to get every site working properly on IE6 and with 
 **HTML**
 
 
-    &#60;div id="ie6_user">
-      &#60;!--[if IE 6]>
-      Looks like you're using Internet Explorer 6 but Headliner.fm does not support it.  For the best experience use &#60;a href="http://www.mozilla.com" target="_blank">FireFox&#60;/a> or &#60;a href="http://www.google.com/chrome" target="_blank">Chrome&#60;/a>.
-      &#60;![endif]-->
-    &#60;/div>
+    <div id="ie6_user">
+      <!--[if IE 6]>
+      Looks like you're using Internet Explorer 6 but Headliner.fm does not support it.  For the best experience use <a href="http://www.mozilla.com" target="_blank">FireFox</a> or <a href="http://www.google.com/chrome" target="_blank">Chrome</a>.
+      <![endif]-->
+    </div>
 
 
 

@@ -44,7 +44,7 @@ Next, load in your file AFTER jQuery has finished loading, here&#8217;s how:
     ...
        wp_head();
     ?>
-    &#60;script type="text/javascript" src="&#60;?php bloginfo("template_url"); ?>/js/main.js">&#60;/script>
+    <script type="text/javascript" src="<?php bloginfo("template_url"); ?>/js/main.js"></script>
 
 
 

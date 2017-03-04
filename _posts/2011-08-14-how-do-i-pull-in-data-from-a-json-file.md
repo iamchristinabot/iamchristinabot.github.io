@@ -18,16 +18,16 @@ Using JavaScript JQuery, pull in data using the getJSON function. In the parenth
 In this example I&#8217;m pulling in a specific object from the file, data[0] which is the first object on the list and filling an given div (with the ID &#8220;container&#8221;) with some HTML.
 
 
-    &#60;script>
+    <script>
     $.getJSON('json/myjsonfile.json',function(data){
     	$('#container').html([
-    	  '&#60;div class="heading">'+data[0].title+'&#60;/div>',
-    	  '&#60;div>',
-    	    '&#60;img src="'+data[0].image+'" style="width:150px; height:100px;"/>',
-    	  '&#60;/div>'
+    	  '<div class="heading">'+data[0].title+'</div>',
+    	  '<div>',
+    	    '<img src="'+data[0].image+'" style="width:150px; height:100px;"/>',
+    	  '</div>'
     	].join(''));
     });
-    &#60;/script>
+    </script>
 
 
 

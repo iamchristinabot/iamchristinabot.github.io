@@ -118,6 +118,14 @@ p {
   }
 }
 
+li{
+  color: $body-color;
+  font-size: 0.875em;
+  @include breakp($bp-medium){
+    font-size: 1em;
+  }
+}
+
 sup {
   font-size: .5em;
   vertical-align: top;

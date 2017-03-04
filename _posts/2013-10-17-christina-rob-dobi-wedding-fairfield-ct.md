@@ -9,6 +9,8 @@ guid: http://www.iamchristinabot.com/blog/?p=268
 permalink: /blog/20131017/christina-rob-dobi-wedding-fairfield-ct/
 categories:
   - Personal
+tags:
+  - Love
 ---
 The weathermen called August 24th the most beautiful day of summer and it was. Rob and I said &#8220;I do&#8221; in the gardens of the Burr Homestead and then celebrated in a white tent surrounded by big old oak trees. We loved this spot not only for it&#8217;s beauty but because it&#8217;s just a few streets away from the Long Island Sound where we spend our weekends in the summer&#8230;
 

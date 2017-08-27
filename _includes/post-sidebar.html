@@ -1,24 +1,29 @@
 <div class="sidebar">
 
-  {% if page.sidebar-about == true %}
+  {% unless page.sidebar-about == false %}
     <hr>
     {% include post-sidebar-about.html %}
-  {% endif %}
+  {% endunless %}
 
-  {% if page.sidebar-categories == true %}
+  {% unless page.sidebar-categories == false %}
     <hr>
     {% include post-sidebar-categories.html %}
-  {% endif %}
+  {% endunless %}
 
-  {% if page.sidebar-tags == true %}
+  {% unless page.sidebar-tags == false %}
     <hr>
     {% include post-sidebar-tags.html %}
-  {% endif %}
+  {% endunless %}
 
   {% if page.sidebar-email == true %}
     <hr>
     {% include post-sidebar-email.html %}
   {% endif %}
-  <hr>
-  {% include post-sidebar-social.html %}
+
+  {% if page.sidebar-social == true %}
+    <hr>
+    {% include post-sidebar-social.html %}
+  {% endif %}
+  <br/>
+  <br/>
 </div>

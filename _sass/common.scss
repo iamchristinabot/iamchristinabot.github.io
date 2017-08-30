@@ -140,8 +140,15 @@ ul.no-bullets {
 .pagination{
   display: block;
   .pagination-plain {
+    color: #aaa;
     padding-top: 8px;
     display: inline-block;
+  }
+  .next.pagination-plain{
+    display: none;
+  }
+  .previous.pagination-plain{
+    display: none;
   }
 }
 

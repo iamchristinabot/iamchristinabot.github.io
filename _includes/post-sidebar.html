@@ -5,22 +5,21 @@
   {% endunless %}
 
   {% unless page.sidebar-categories == false %}
-    <hr>
+
     {% include post-sidebar-categories.html %}
   {% endunless %}
 
   {% unless page.sidebar-tags == false %}
-    <hr>
+
     {% include post-sidebar-tags.html %}
   {% endunless %}
 
   {% if page.sidebar-email == true %}
-    <hr>
     {% include post-sidebar-email.html %}
   {% endif %}
 
   {% if page.sidebar-social == true %}
-    <hr>
+
     {% include post-sidebar-social.html %}
   {% endif %}
   <br/>

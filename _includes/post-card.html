@@ -1,13 +1,9 @@
-<li class="card">
+<li class="post-item">
   <a href="{{ post.url | prepend: site.baseurl }}">
     <h4 class="title">{{ post.title }}</h4>
     <p class="muted timestamp">{{ post.date | date: '%B %d, %Y' }}</p>
     {% if post.image %}
         <img src="{{ site.url | prepend: site.baseurl }}{{post.image}}" class="img-responsive">
     {% endif %}
-    <p>{{post.excerpt}}</p>
-  </a>
-  <a href="{{ post.url | prepend: site.baseurl }}">
-    <p>Read more...</p>
   </a>
 </li>

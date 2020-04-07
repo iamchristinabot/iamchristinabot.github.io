@@ -1,4 +1,14 @@
 .sidebar{
+  h4 {
+    border-top: 1px solid #DFDFDF;
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+  h4:first-child{
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0
+  }
   .sidebar-social{
     .fa{
       padding-right: 10px;

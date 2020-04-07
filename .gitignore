@@ -3,3 +3,5 @@ wp-content/.DS_Store
 .sass-cache/
 _site/
 _drafts/
+.jekyll-cache/
+_config_dev.yml

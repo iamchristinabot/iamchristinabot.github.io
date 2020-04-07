@@ -6,9 +6,11 @@ github_repo: iamchristinabot/iamchristinabot.github.io
 
 # Gems
 gems:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
+
+plugins:
+  - jekyll-paginate
 
 # Build Settings
 sass:

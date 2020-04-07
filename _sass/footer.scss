@@ -1,11 +1,15 @@
 .footer {
-  background-color: #fff;
+  background-color: #64BFB3;
   text-align: left;
   border-top: 1px solid #eee;
   margin: 0;
   padding: 30px 0;
+  p {
+    color: #fff;
+  }
   .social{
     .fa{
+      color: #fff;
       padding: 5px;
     }
   }

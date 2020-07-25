@@ -1,0 +1,13 @@
+{% assign project = site.data.projects[include.project] %}
+<a class="portfolio-item-link" href="/projects/{{ project.url }}">
+  <div class="portfolio-item-image">
+    <img src="{{ site.url | prepend: site.baseurl }}/images/{{ project.image }}" class="img-responsive"/>
+  </div>
+
+  <div class="portfolio-item-content" style="background: {{ project.color }};">
+    <div class="portfolio-item-info">
+      <h4 class="portfolio-item-title"><b>{{ project.name }}</b></h4>
+      <h5 class="portfolio-item-subtitle">Learn More</h5>
+    </div>
+  </div>
+</a>

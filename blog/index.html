@@ -16,7 +16,7 @@ sidebar-about: false
       </div>
     </div>
     <div class="row fadeIn">
-      <div class="col-sm-8">
+      <div class="col-sm-9">
         <ul class="no-bullets">
           {% for post in paginator.posts %}
           {% unless post.sitemap == false %}
@@ -26,7 +26,7 @@ sidebar-about: false
         </ul>
         {% include pagination.html %}
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         {% include post-sidebar.html %}
       </div>
     </div>

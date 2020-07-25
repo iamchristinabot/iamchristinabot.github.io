@@ -9,7 +9,7 @@ nav {
     padding: 40px 0;
   }
   .christina-dobi{
-    color: #64BFB3;
+    color: $brand-color;
     font-size: 26px;
     font-weight: bold;
     vertical-align: middle;
@@ -19,7 +19,7 @@ nav {
     @include opacity(.95);
   }
   a.page-link, a.page-link:link, a.page-link:active, a.page-link:hover, a.page-link:visited{
-    color: #64BFB3;
+    color: $brand-color;
     margin: 0 10px;
   }
   a.page-link{

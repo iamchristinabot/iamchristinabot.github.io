@@ -47,7 +47,10 @@ body {
 }
 
 .container-highlight{
-  background-color: #64BFB3;
+  background-color: $brand-color;
+}
+.container-highlight-light{
+  background-color: #F5F3F8;
 }
 
 .fadeInUp {

@@ -1,9 +1,12 @@
 .footer {
-  background-color: #427D76;
+  background-color: $dark-color;
   text-align: left;
-  border-top: 0px solid #427D76;
   margin: 0;
   padding: 30px 0;
+  .footernote{
+    font-size: 12px;
+    padding-top: 10px;
+  }
   p {
     color: #fff;
   }

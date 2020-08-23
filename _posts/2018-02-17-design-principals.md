@@ -37,3 +37,4 @@ A beautifully skinned product that is difficult to use will not deliver a reward
 Experiment, experiment, and experiment some more. Remember, ideas can be executed multiple ways, and a great idea can fail because it was executed poorly. If you strongly believe in an idea that failed, it's okay to try again.
 
 <a href="https://amzn.to/3aP4iEt">Buy these super cool glitter crayons.</a>
+As an Amazon Associate I earn from qualifying purchases.

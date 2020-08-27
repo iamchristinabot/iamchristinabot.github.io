@@ -18,11 +18,11 @@ glg-homepage:
    image: "work/glg-homepage.jpg"
    url: "glg-homepage"
    color: "#ee4e4a"
-auction-ninja:
-   name: "Auction Ninja"
-   image: "work/auction-ninja.jpg"
-   url: "auction-ninja"
-   color: "#333F6B"
+lightburn:
+   name: "Lightburn"
+   image: "work/lightburn.jpg"
+   url: "lightburn"
+   color: "#EEA46F"
 maps-of-imaginary-places:
    name: "Maps of Imaginary Places"
    image: "work/maps-of-imaginary-places.jpg"

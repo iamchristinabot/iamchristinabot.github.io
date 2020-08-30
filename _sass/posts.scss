@@ -1,5 +1,6 @@
 #posts{
   padding-top: 30px;
+  
   .amp{
     padding: 0 5px;
   }
@@ -13,7 +14,9 @@
   .post-item{
     background: #fff;
     margin: 0;
+    margin-bottom: 20px;
     padding: 0 0 20px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
   }
   .sidebar{
     hr:first-child{
@@ -21,7 +24,6 @@
     }
   }
   .subhead{
-    // border-bottom: 1px solid rgba(0,0,0,0.07);
     padding: 10px 0 40px 0;
   }
 }

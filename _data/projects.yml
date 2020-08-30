@@ -1,0 +1,30 @@
+survey-tool: 
+   name: "Survey Management Tool"
+   image: "work/survey-tool.jpg"
+   url: "survey-management-tool"
+   color: "#39b8f9"
+gibbs-tuff: 
+   name: "Gibbs Tuff"
+   image: "work/gibbs-tuff.jpg"
+   url: "gibbs-tuff"
+   color: "#e26222"
+recruiting: 
+   name: "Recruiting Application"
+   image: "work/recruiting-app.jpg"
+   url: "recruiting-app"
+   color: "#4A90E2"
+glg-homepage: 
+   name: "GLG Homepage"
+   image: "work/glg-homepage.jpg"
+   url: "glg-homepage"
+   color: "#ee4e4a"
+lightburn:
+   name: "Lightburn"
+   image: "work/lightburn.jpg"
+   url: "lightburn"
+   color: "#EEA46F"
+maps-of-imaginary-places:
+   name: "Maps of Imaginary Places"
+   image: "work/maps-of-imaginary-places.jpg"
+   url: "maps-of-imaginary-places"
+   color: "#7f5aa0"

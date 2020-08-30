@@ -1,46 +1,28 @@
-nav {
-  box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+nav {  
   width: 100%;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 20px 0;
   margin-bottom: 0px;
   position: relative;
   z-index: 5;
   @include breakp($bp-medium){
-    padding: 80px;
+    padding: 40px 0;
+  }
+  .christina-dobi{
+    color: $brand-color;
+    font-size: 26px;
+    font-weight: bold;
+    vertical-align: middle;
   }
   .monogram{
     max-width: 50px;
     @include opacity(.95);
   }
-  a, a:link, a:active, a:hover, a:visited{
-    color: #fff;
-    margin: 0 10px;
+  a.page-link, a.page-link:link, a.page-link:active, a.page-link:hover, a.page-link:visited{
+    color: $brand-color;
+    margin: 5px 10px;
   }
-  a{
+  a.page-link{
     display: inline-block;
-  }
-  .page-link{
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-}
-.site-header{
-  background: #222 url('/images/video-still.jpg') no-repeat 0 50%;
-  position: relative;
-  @include backgroundCover;
-  @include breakp($bp-medium){
-    background: #222 url('/images/video-still.jpg') no-repeat 0 -180px;
-    @include backgroundCover;
-  }
-  #overlay {
-    background: #222;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    z-index: 0;
-    pointer-events: none;
-    @include opacity(.9);
   }
 }

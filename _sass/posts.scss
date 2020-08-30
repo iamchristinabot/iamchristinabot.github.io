@@ -1,6 +1,6 @@
 #posts{
-  background-color: #fafafa;
   padding-top: 30px;
+  
   .amp{
     padding: 0 5px;
   }
@@ -11,15 +11,19 @@
     text-transform: uppercase;
     font-size: 14px;
   }
-  .card{
+  .post-item{
+    background: #fff;
+    margin: 0;
     margin-bottom: 20px;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
   }
   .sidebar{
     hr:first-child{
       margin-top: 12px;
     }
   }
-  .timestamp{
-    padding-top: 5px;
+  .subhead{
+    padding: 10px 0 40px 0;
   }
 }

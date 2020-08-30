@@ -1,14 +1,17 @@
 #about{
-  background-color: #fafafa;
+  // background-color: #fafafa;
+  h4.headline{
+    margin: 60px 0 40px 0;
+  }
   #instagram{
-    // padding-top: 100px;
     position: relative;
     z-index: 1000;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     img{
       width: 33%;
-      // max-width: 195px;
-      // margin: 15px;
-      // border: 7px solid white
     }
   }
   .sidebar{

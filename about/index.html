@@ -6,16 +6,16 @@ sidebar-tags: false
 sidebar-about: false
 sidebar-email: true
 sidebar-social: true
-
 ---
-<div id="about">
 
+<div id="about">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <section>
-          <h2 class="text-center fadeInUp">
-            I'm an interface designer and developer focused on creating positive user experiences.
+          <h2 class="fadeInUp">
+            I'm a UX designer and software engineer focused on creating
+            meaningful user experiences.
           </h2>
         </section>
       </div>
@@ -23,29 +23,19 @@ sidebar-social: true
     <div class="row fadeIn">
       <div class="col-sm-8">
         <p>
-          I grew up in New York but now live in a small town in Connecticut with my husband <a href="http://robdobi.com" target="_blank">Rob Dobi</a>, our daughter, and dog, Buddy. I'm currently a software engineer at GLG in New York City.
+          I have worked across the product lifecycle as a designer, developer, and product manager helping organizations
+          meet business goals while enhancing the user experience.
+
+          With every project, I bring a data-driven and user-centered approach that helps businesses make evidence-based
+          decisions and push their products forward.
         </p>
         <p>
-          I have a passion for organizing data in the simplest way possible and I believe design is about effectively communicating ideas and reaching goals. I make decisions based on results of testing and I live for the challenge in finding better solutions. I built my first website in 1998 and have been fascinated with the web ever since. Oh, and I couldn't live in a world without GitHub.
+          I'm from New York City but now live in Connecticut with
+          <a href="http://robdobi.com" target="_blank">Rob Dobi</a>, our two
+          rambunctious daughters, and our dog, Buddy. In my spare time, I listen
+          to noisy music, hang out with my family, and seek out the best baked
+          goods I can find.
         </p>
-        <p>
-          Specialties: Interaction Design, User Interface Design, Front-end Development, User Experience
-          <br>
-          Currently Learning: SQL
-        </p>
-
-        <div class="row">
-          <div class="col-sm-5 col-centered text-center">
-            <hr>
-            <h4>Latest on Instagram</h4>
-            <br>
-          </div>
-        </div>
-
-        <div id="instagram" class="text-center"></div>
-        <br>
-        <br>
-
       </div>
       <div class="col-sm-4">
         {% include post-sidebar.html %}
@@ -53,26 +43,47 @@ sidebar-social: true
     </div>
   </div>
 
+  <div class="container-fluid container-highlight">
+    <div class="row">
+      <div class="col-sm-5 col-centered text-center">
+        <h4 class="inverted headline">Latest on Instagram</h4>
+        <br />
+      </div>
+    </div>
+
+    <div id="instagram" class="text-center">
+      <img
+        src="{{ site.url | prepend: site.baseurl }}/images/instagram/109063432_329050534936789_1355710656355423004_n.jpg"
+        class="img-responsive" />
+      <img
+        src="{{ site.url | prepend: site.baseurl }}/images/instagram/106603205_761038917998537_5854044241186862953_n.jpg"
+        class="img-responsive" />
+      <img
+        src="{{ site.url | prepend: site.baseurl }}/images/instagram/106797369_194645578666040_8356381561936053958_n.jpg"
+        class="img-responsive" />
+      <img
+        src="{{ site.url | prepend: site.baseurl }}/images/instagram/106513933_636658137241014_933034059333443857_n.jpg"
+        class="img-responsive" />
+      <img
+        src="{{ site.url | prepend: site.baseurl }}/images/instagram/106212198_281374416411891_6616237672588180598_n.jpg"
+        class="img-responsive" />
+      <img
+        src="{{ site.url | prepend: site.baseurl }}/images/instagram/106496786_228546045270585_7592245448447418732_n.jpg"
+        class="img-responsive" />
+      <img
+        src="{{ site.url | prepend: site.baseurl }}/images/instagram/106593272_589965311944668_1836966291695715825_n.jpg"
+        class="img-responsive" />
+      <img
+        src="{{ site.url | prepend: site.baseurl }}/images/instagram/104375514_166567568180521_6903857659504992699_n.jpg"
+        class="img-responsive" />
+      <img
+        src="{{ site.url | prepend: site.baseurl }}/images/instagram/96363243_2625549067707748_378874712913604926_n.jpg"
+        class="img-responsive" />
+
+
+
+
+    </div>
+
+  </div>
 </div>
-<script type="text/javascript" src="{{ base }}/js/instafeed.js"></script>
-
-<script type="text/javascript">
-
-  var feed = new Instafeed({
-    get: 'user',
-    userId: 6758376,
-    accessToken: '6758376.1677ed0.0284f94a6e114d5896c1fc9d582b243d',
-    target: 'instagram',
-    resolution: 'standard_resolution',
-    limit: 9,
-    after: function() {
-      var el = document.getElementById('instagram');
-      if (el.classList)
-        el.classList.add('show');
-      else
-        el.className += ' ' + 'show';
-    }
-  });
-
-  feed.run();
-</script>

@@ -28,6 +28,15 @@ body {
   background-color: #fff;
 }
 
+.card{
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgba(0,0,0,.07);
+  border-radius: 3px;
+  margin: 0;
+  padding: 20px;
+}
+
 .col-centered{
   float: none;
   margin: 0 auto;
@@ -35,6 +44,13 @@ body {
 
 .container{
   max-width: 1024px;
+}
+
+.container-highlight{
+  background-color: $brand-color;
+}
+.container-highlight-light{
+  background-color: #F5F3F8;
 }
 
 .fadeInUp {
@@ -118,15 +134,6 @@ img {
 
 .pointer {
   cursor: pointer;
-}
-
-.card{
-  background: #fff;
-  box-shadow: 0 1px 4px rgba(0,0,0,.04);
-  border: 1px solid rgba(0,0,0,.09);
-  border-radius: 3px;
-  margin: 0;
-  padding: 20px;
 }
 
 ol.no-bullets,

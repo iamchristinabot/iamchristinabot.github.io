@@ -21,7 +21,7 @@ paginate: 10
 paginate_path: /blog/page/:num
 
 # Configuration
-ga_track_id: UA-12642425-1
+ga_track_id: G-EMWWMXG2NX
 twitter_id: iamchristinabot
 instagram_id: iamchristinabot
 pinterest_id: iamchristinabot

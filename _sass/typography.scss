@@ -35,7 +35,7 @@ body{
   color: $dark-color;
   font-family: "source-sans-pro", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: $type-body-size;
   font-weight: 200;
   line-height: 1.6;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
@@ -119,11 +119,8 @@ a.text-inverted:link{
 
 p {
   color: $body-color;
-  font-size: 0.875em;
+  font-size: 1em;
   margin: 0 0 16px;
-  @include breakp($bp-medium){
-    font-size: 1em;
-  }
   &.small{
     font-size: 0.875em;
   }

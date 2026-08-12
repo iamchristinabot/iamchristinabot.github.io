@@ -28,3 +28,18 @@ maps-of-imaginary-places:
    image: "work/maps-of-imaginary-places.jpg"
    url: "maps-of-imaginary-places"
    color: "#7f5aa0"
+design-system:
+   name: "Design System"
+   image: "work/design-system.svg"
+   link: "/styleguide/"
+   color: "#2EB7FC"
+zebbly:
+   name: "Zebbly Wishlists"
+   image: "work/zebbly.png"
+   url: "zebbly"
+   color: "#39b8f9"
+auction-ninja:
+   name: "Auction Ninja"
+   image: "work/auction-ninja.jpg"
+   url: "auction-ninja"
+   color: "#3E4A73"

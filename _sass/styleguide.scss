@@ -1,0 +1,121 @@
+// Style guide page — chrome for documenting the system. The examples
+// themselves render with the site's real classes; only the specimen
+// scaffolding (swatches, spec labels, spacing bars) lives here.
+
+#styleguide {
+  padding-bottom: 40px;
+
+  .sg-section {
+    margin-bottom: $space-xl;
+
+    h4.headline {
+      margin: 0 0 $space-md;
+      padding-top: $space-md;
+      border-top: 1px solid $color-border;
+    }
+  }
+
+  .sg-chip-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sg-monogram {
+    max-width: 40px;
+  }
+
+  .sg-wordmark {
+    color: $color-brand;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0 0;
+  }
+
+  .sg-band-strip {
+    padding: 14px 20px;
+    font-size: 13px;
+    color: $color-text;
+    margin-bottom: 8px;
+
+    &.sg-band-strip-inverted {
+      color: #fff;
+    }
+  }
+
+  .sg-eyebrow {
+    @include eyebrow(var(--accent, #{$color-brand}));
+    margin-bottom: 0;
+  }
+
+  .sg-spec {
+    display: block;
+    font-size: 12px;
+    color: lighten($color-body, 15%);
+    margin: 4px 0 20px;
+  }
+
+  .sg-swatches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: $space-md;
+  }
+
+  .sg-swatch {
+    width: 150px;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: $shadow-card;
+
+    .sg-chip {
+      height: 70px;
+
+      &.sg-chip-bordered {
+        border-bottom: 1px solid $color-border;
+      }
+    }
+
+    .sg-swatch-label {
+      background: $color-surface;
+      padding: 8px 10px;
+      font-size: 12px;
+      color: $color-text;
+
+      b {
+        display: block;
+      }
+    }
+  }
+
+  .sg-space-bar {
+    background: $color-brand;
+    height: 18px;
+    margin-bottom: 8px;
+    display: inline-block;
+  }
+
+  .sg-space-row {
+    font-size: 12px;
+    color: $color-body;
+    margin-bottom: 10px;
+
+    span {
+      display: inline-block;
+      width: 110px;
+    }
+  }
+
+  .sg-example {
+    margin-bottom: $space-md;
+  }
+
+  .sg-band-demo {
+    padding: $space-md;
+    text-align: center;
+  }
+
+  .sg-tile-demo {
+    max-width: 420px;
+  }
+}

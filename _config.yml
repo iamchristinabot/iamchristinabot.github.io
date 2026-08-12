@@ -1,16 +1,13 @@
 # Site settings
 url: https://iamchristinabot.com
-name: 'iamchristinabot.com - Blog'
-description: Christina Dobi Blog
+name: 'Christina Dobi, Software Engineer'
+description: 'Christina Dobi: product engineer turning ideas into thoughtful, innovative digital experiences.'
 github_repo: iamchristinabot/iamchristinabot.github.io
-
-# Gems
-gems:
-  - jekyll-sitemap
-  - jekyll-feed
 
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
 
 # Build Settings
 sass:
@@ -29,4 +26,5 @@ twitter_id: iamchristinabot
 instagram_id: iamchristinabot
 pinterest_id: iamchristinabot
 linkedin_id: christinadobi
+github_id: iamchristinabot
 email: iamchristinabot@gmail.com

@@ -1,0 +1,41 @@
+// ---------------------------------------------------------------------------
+// Patterns — the recurring visual moves of the site, built from tokens.
+// A pattern earns a mixin when it has two consumers.
+// ---------------------------------------------------------------------------
+
+// Eyebrow label: small bold caps in an accent color.
+// Used by: back links, styleguide specimens; h4.headline shares its tracking.
+@mixin eyebrow($color: $color-brand) {
+  font-size: $type-eyebrow-size;
+  font-weight: bold;
+  letter-spacing: $type-eyebrow-tracking;
+  text-transform: uppercase;
+  color: $color;
+}
+
+// Elevated card with an accent top border.
+// Used by: What I Build cards; any future stat/summary card.
+@mixin accent-card {
+  background: $color-surface;
+  border-top: 4px solid var(--accent, #{$color-brand});
+  border-radius: 0 0 3px 3px;
+  box-shadow: $shadow-card;
+  padding: 25px;
+}
+
+// Standard vertical rhythm for a homepage/landing section.
+@mixin section-rhythm {
+  padding: $space-lg 0;
+  @include breakp($bp-medium) {
+    padding: $space-xl 0;
+  }
+}
+
+// Accent utilities — apply a project's accent to any pattern that reads
+// var(--accent) (cards, featured-work panels). Markup names the
+// project; the token supplies the color.
+.accent-design-system { --accent: #{$accent-design-system}; --accent-tint: #{mix($accent-design-system, #fff, 10%)}; }
+.accent-zebbly        { --accent: #{$accent-zebbly}; --accent-tint: #{mix($accent-zebbly, #fff, 10%)}; }
+.accent-platform      { --accent: #{$accent-platform}; --accent-tint: #{mix($accent-platform, #fff, 10%)}; }
+.accent-product       { --accent: #{$accent-product}; --accent-tint: #{mix($accent-product, #fff, 10%)}; }
+.accent-essay         { --accent: #{$accent-essay}; --accent-tint: #{mix($accent-essay, #fff, 10%)}; }

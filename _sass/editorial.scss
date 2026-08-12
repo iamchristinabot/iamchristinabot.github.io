@@ -1,0 +1,322 @@
+// Editorial homepage, case studies, and How I Think
+
+// Full-bleed video hero with brand overlay (same treatment as the original home)
+.ed-hero-video {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  min-height: 540px;
+  background: #1f252a url('/images/video-still.jpg') no-repeat center center;
+  background-size: cover;
+
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .ed-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $color-brand;
+    z-index: 2;
+    @include opacity(.7);
+  }
+
+  .ed-hero-content {
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+    .monogram {
+      max-width: 50px;
+      margin-bottom: 20px;
+      @include opacity(.8);
+    }
+
+    .ed-name {
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    .ed-positioning {
+      color: #fff;
+      font-weight: 100;
+      font-size: 24px;
+      max-width: 500px;
+      margin: 0 auto 18px;
+      @include breakp($bp-large) {
+        max-width: 740px;
+      }
+    }
+
+    .ed-stack {
+      color: #fff;
+      font-size: 0.875em;
+      letter-spacing: $type-eyebrow-tracking;
+      text-transform: uppercase;
+      @include opacity(.85);
+      margin-bottom: $space-md;
+    }
+  }
+
+  .ed-hero-nav {
+    a,
+    a:link,
+    a:active,
+    a:hover,
+    a:visited {
+      color: #fff;
+      margin: 0 $space-xs;
+    }
+
+    .social {
+      margin-top: $space-sm;
+
+      a {
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+
+// Section label — h4.headline is always uppercase with eyebrow tracking.
+h4.headline {
+  text-transform: uppercase;
+  letter-spacing: $type-eyebrow-tracking;
+}
+
+#home-editorial {
+  h4.headline {
+    margin: 0 0 $space-md;
+  }
+
+  .subhead {
+    padding: $space-xs 0;
+  }
+
+  .ed-what-statement {
+    max-width: 820px;
+    margin-bottom: $space-sm;
+  }
+
+  .ed-what-intro {
+    max-width: 680px;
+    margin-bottom: $space-lg;
+  }
+}
+
+.ed-section {
+  @include section-rhythm;
+}
+
+.ed-section-borderless {
+  border-top: none;
+}
+
+.ed-card {
+  --accent: #{$color-brand};
+  @include accent-card;
+  margin-bottom: 25px;
+
+  h4 {
+    margin-top: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.ed-more-link {
+  font-weight: bold;
+}
+
+// Primary call to action — solid brand pill.
+.ed-cta-row {
+  margin-top: $space-md;
+}
+
+.ed-cta {
+  display: inline-block;
+  background: $color-brand;
+  font-weight: bold;
+  border-radius: 999px;
+  padding: 12px 36px;
+  transition: background 0.15s ease;
+
+  &,
+  &:link,
+  &:active,
+  &:visited {
+    color: #fff;
+  }
+
+  &:hover,
+  &:focus {
+    background: darken($color-brand, 8%);
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+// Featured work — editorial project sections: title + chip, intro, and
+// sub-items over rounded media panels tinted with the project accent.
+.ed-feature {
+  --accent: #{$color-brand};
+  margin-bottom: $space-xl;
+
+  .ed-feature-header {
+    margin-bottom: $space-sm;
+
+    h3 {
+      margin-bottom: $space-xs;
+    }
+
+    p {
+      max-width: 680px;
+    }
+  }
+
+  .ed-feature-chip {
+    display: inline-block;
+    font-size: $type-eyebrow-size;
+    font-weight: 200;
+    color: $color-body;
+    border: 1px solid $color-border;
+    border-radius: 999px;
+    padding: 3px 14px;
+    margin-left: $space-xs;
+    vertical-align: middle;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+
+  .ed-feature-sub {
+    h4 {
+      margin: $space-sm 0 2px;
+    }
+
+    > p {
+      margin-bottom: $space-sm;
+    }
+  }
+
+  .ed-feature-panel {
+    display: block;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 16px;
+    padding: 25px 25px 0;
+    background: var(--accent-tint, #{$color-band-light});
+    transition: box-shadow 0.15s ease;
+
+    &:hover,
+    &:focus {
+      box-shadow: $shadow-card;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      margin: 0;
+      border-radius: 8px 8px 0 0;
+      box-shadow: $shadow-card;
+    }
+  }
+
+  .ed-panel-card {
+    background: $color-surface;
+    border-radius: 8px 8px 0 0;
+    box-shadow: $shadow-card;
+    padding: 25px;
+    height: 100%;
+
+    .ed-token-dot {
+      display: inline-block;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--accent);
+      margin: 0 6px 6px 0;
+    }
+
+    .ed-panel-type {
+      font-size: 3em;
+      line-height: 1.1;
+      color: $color-text;
+      margin: 10px 0 4px;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .ed-feature-links {
+    margin-top: $space-sm;
+
+    a {
+      font-weight: bold;
+    }
+  }
+}
+
+// Back navigation for detail pages (posts, projects, case studies)
+
+.back-link-row {
+  padding: 0;
+  margin: 0 0 $space-xs;
+}
+
+.back-link {
+  display: inline-block;
+  @include eyebrow($color-brand);
+  transition: transform 0.15s ease, color 0.15s ease;
+
+  &:link,
+  &:active,
+  &:visited {
+    color: $color-brand;
+  }
+
+  &:hover,
+  &:focus {
+    color: darken($color-brand, 12%);
+    text-decoration: none;
+    transform: translateX(-4px);
+  }
+}
+
+// About page photo
+
+.about-photo {
+  margin: $space-md 0;
+
+  img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  figcaption {
+    font-size: $type-meta-size;
+    color: $color-body;
+    margin-top: $space-xs;
+  }
+}

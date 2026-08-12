@@ -11,8 +11,16 @@
 
   <link rel="stylesheet" type="text/css" href="{{"/css/main.css" | prepend: site.baseurl}}">
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: base.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
 
   <link rel="alternate" href="{{ page.url | remove:'index.html' | prepend:site.url }}" hreflang="en">
+
+  <meta property="og:site_name" content="Christina Dobi">
+  <meta property="og:title" content="{% if page.title %}Christina Dobi | {{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | remove:'index.html' | prepend:site.url }}">
+  <meta property="og:image" content="{{ "/images/logo-monogram.png" | prepend: site.url }}">
+  <meta name="twitter:card" content="summary">
 
 </head>

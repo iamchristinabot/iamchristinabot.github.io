@@ -1,41 +1,172 @@
 ---
-layout: home
-title: UX Designer and Software Engineer
+layout: default
+title: Product Engineer
 header: false
-footer: false
 ---
 
-<div class="hero">
-  <div class="text-wrap">
-    <div class="text text-center">
+<div id="home-editorial">
+
+  <!-- Hero -->
+  <section class="ed-hero-video">
+    <video class="hidden-xs" autoplay loop muted playsinline>
+      <source src="video/christinadobi-video.mp4" type="video/mp4">
+    </video>
+    <div class="ed-hero-overlay"></div>
+    <div class="ed-hero-content">
       <div class="fadeInUp">
-        <img src="{{ site.url | prepend: site.baseurl }}/images/logo-monogram-w.png" class="monogram" />
-        <h5 class="about-me">Hello! I’m Christina Dobi, a UX designer and software engineer, currently full-time at GLG in New York City.</h5>
+        <img src="{{ site.url | prepend: site.baseurl }}/images/logo-monogram-w.png" class="monogram" alt="Christina Dobi monogram" />
+        <h1 class="ed-name">Christina Dobi</h1>
+        <p class="ed-positioning">
+          Product engineer turning ideas into thoughtful digital experiences.
+        </p>
       </div>
-      <div class="fadeIn home-nav">
+      <div class="fadeIn ed-hero-nav">
         <p>
-          <a href="{{ site.url | prepend: site.baseurl }}/about/" class="decorate">About</a>
           <a href="{{ site.url | prepend: site.baseurl }}/projects/" class="decorate">Work</a>
-          <a href="mailto:{{site.email}}" target="_blank" class="decorate">Contact</a>
+          <a href="{{ site.url | prepend: site.baseurl }}/about/" class="decorate">About</a>
+          <a href="mailto:{{site.email}}" class="decorate">Contact</a>
         </p>
         <div class="social">
-          <a href="https://www.instagram.com/{{site.instagram_id}}/" target="_blank"><span class="fa fa-instagram"></span></a>
-
-          <a href="https://www.pinterest.com/{{site.pinterest_id}}/" target="_blank"><span class="fa fa-pinterest"></span></a>
-
-          <a href="https://twitter.com/{{site.twitter_id}}" target="_blank"><span class="fa fa-twitter"></span></a>
-
-          <a href="https://www.linkedin.com/in/{{site.linkedin_id}}/" target="_blank"><span class="fa fa-linkedin"></span></a>
+          <a href="https://www.linkedin.com/in/{{site.linkedin_id}}/" target="_blank" aria-label="LinkedIn"><span class="fa fa-linkedin"></span></a>
+          <a href="https://github.com/{{site.github_id}}" target="_blank" aria-label="GitHub"><span class="fa fa-github"></span></a>
         </div>
-
       </div>
     </div>
+  </section>
+
+  <!-- What I Build -->
+  <div class="container-fluid container-highlight-light">
+    <div class="container">
+      <section class="ed-section ed-section-borderless">
+        <h4 class="headline">What I Do</h4>
+        <h2 class="fadeInUp ed-what-statement">
+          I build thoughtful products that make complex things feel simple.
+        </h2>
+        <p class="fadeIn ed-what-intro">
+          I&rsquo;m a product engineer and former Technical Product Manager with
+          15+ years building web products. I bring together engineering, product
+          thinking, and design systems to turn ideas and complex requirements
+          into intuitive, scalable experiences.
+        </p>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="ed-card accent-product">
+              <h4>Engineering</h4>
+              <p>Building robust, maintainable products from the ground up, from technical decisions and frontend architecture to implementation and iteration.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="ed-card accent-platform">
+              <h4>Product Innovation</h4>
+              <p>Turning ideas and opportunities into products. I explore new concepts, shape product direction, and translate complex problems into simple, useful experiences.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="ed-card accent-design-system">
+              <h4>Design Systems</h4>
+              <p>Building the foundations that connect design and engineering: tokens, components, patterns, and tooling that make products more consistent and scalable.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
-</div>
-<div id="overlay"></div>
-<div class="video">
-  <video class="hidden-xs" autoplay loop muted>
-    <source src="video/christinadobi-video.mp4" type="video/webm">
-    <source src="video/christinadobi-video.mp4" type="video/mp4">
-  </video>
+
+  <!-- Featured Work -->
+  <div class="container">
+    <section class="ed-section ed-section-borderless">
+      <h4 class="headline">Featured Work</h4>
+
+      <div class="ed-feature accent-zebbly">
+        <div class="ed-feature-header">
+          <h3>Zebbly <span class="ed-feature-chip">Live Product</span></h3>
+          <p>
+            A social shopping and wishlist product I took from idea through UX
+            and implementation. Collect products from any store, add custom
+            ideas like subscriptions and local shopping, and share lists with
+            the people who need them.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 ed-feature-sub">
+            <h4>Wishlists with context</h4>
+            <p>Lists carry sizes, interests, and notes, so gift-givers aren&rsquo;t guessing.</p>
+            <a class="ed-feature-panel" href="{{ site.url | prepend: site.baseurl }}/projects/zebbly/">
+              <img src="{{ site.url | prepend: site.baseurl }}/images/work/zebbly.png" alt="Zebbly wishlist: Maya's birthday wishlist with product cards" />
+            </a>
+          </div>
+          <div class="col-sm-6 ed-feature-sub">
+            <h4>Explore and trending gifts</h4>
+            <p>A browsable side of the product: trending gifts and curated ideas.</p>
+            <a class="ed-feature-panel" href="{{ site.url | prepend: site.baseurl }}/projects/zebbly/">
+              <img src="{{ site.url | prepend: site.baseurl }}/images/projects/zebbly/explore.png" alt="Zebbly explore page with trending gifts" />
+            </a>
+          </div>
+        </div>
+        <p class="ed-feature-links">
+          <a href="{{ site.url | prepend: site.baseurl }}/projects/zebbly/">Read the Zebbly case study &rarr;</a>
+        </p>
+      </div>
+
+      <div class="ed-feature accent-product">
+        <div class="ed-feature-header">
+          <h3>GLG Homepage <span class="ed-feature-chip">2015&ndash;2019</span></h3>
+          <p>
+            GLG brings the power of insight to every great professional
+            decision. I redesigned and developed the GLG website from
+            pre-existing branding. It was live for four years.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 ed-feature-sub">
+            <h4>Homepage</h4>
+            <p>The public face of GLG, built from the brand up.</p>
+            <a class="ed-feature-panel" href="{{ site.url | prepend: site.baseurl }}/projects/glg-homepage">
+              <img src="{{ site.url | prepend: site.baseurl }}/images/projects/glg-home/home.jpg" alt="GLG website homepage design" />
+            </a>
+          </div>
+          <div class="col-sm-6 ed-feature-sub">
+            <h4>Careers</h4>
+            <p>The careers experience for a global team.</p>
+            <a class="ed-feature-panel" href="{{ site.url | prepend: site.baseurl }}/projects/glg-homepage">
+              <img src="{{ site.url | prepend: site.baseurl }}/images/projects/glg-home/careers.jpg" alt="GLG website careers page design" />
+            </a>
+          </div>
+        </div>
+        <p class="ed-feature-links">
+          <a href="{{ site.url | prepend: site.baseurl }}/projects/glg-homepage">See the project &rarr;</a>
+          &nbsp;&nbsp;
+          <a href="{{ site.url | prepend: site.baseurl }}/projects/">View all work &rarr;</a>
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <!-- How I Think + About -->
+  <div class="container-fluid container-highlight-light">
+    <div class="container">
+      <section class="ed-section ed-section-borderless">
+        <div class="row">
+          <div class="col-sm-6">
+            <h4 class="headline">Under the Hood</h4>
+            <p>
+              This site runs on its own small design system: tokens, patterns,
+              and a living style guide rendered by the site itself.
+            </p>
+            <p><a href="{{ site.url | prepend: site.baseurl }}/styleguide/" class="ed-more-link">See how it&rsquo;s built &rarr;</a></p>
+          </div>
+          <div class="col-sm-6">
+            <h4 class="headline">About</h4>
+            <p>
+              Senior Software Engineer, 15+ years building web products, and a former
+              Technical Product Manager. I care as much about solving the right
+              problem as about building it well.
+            </p>
+            <p><a href="{{ site.url | prepend: site.baseurl }}/about/" class="ed-more-link">More about me &rarr;</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
 </div>

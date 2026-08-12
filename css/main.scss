@@ -1,6 +1,8 @@
 ---
 ---
+@import "tokens.scss";
 @import "mixins.scss";
+@import "patterns.scss";
 @import "typography.scss";
 @import "forms.scss";
 @import "common.scss";
@@ -14,3 +16,5 @@
 @import "sidebar.scss";
 @import "work.scss";
 @import "project.scss";
+@import "editorial.scss";
+@import "styleguide.scss";

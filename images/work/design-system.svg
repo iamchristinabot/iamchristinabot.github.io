@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200">
+  <rect width="1600" height="1200" fill="#f0f8fe"/>
+  <!-- token swatches -->
+  <rect x="180" y="180" width="180" height="180" rx="16" fill="#2EB7FC"/>
+  <rect x="400" y="180" width="180" height="180" rx="16" fill="#323E59"/>
+  <rect x="620" y="180" width="180" height="180" rx="16" fill="#7f5aa0"/>
+  <rect x="840" y="180" width="180" height="180" rx="16" fill="#ee4e4a"/>
+  <rect x="1060" y="180" width="180" height="180" rx="16" fill="#e26222"/>
+  <rect x="1280" y="180" width="140" height="180" rx="16" fill="#F5F3F8" stroke="#d8d4e0" stroke-width="4"/>
+  <!-- type ramp -->
+  <rect x="180" y="460" width="700" height="56" rx="12" fill="#323E59"/>
+  <rect x="180" y="550" width="520" height="40" rx="10" fill="#8a93ab"/>
+  <rect x="180" y="622" width="380" height="28" rx="8" fill="#c3c9d8"/>
+  <!-- component: button row -->
+  <rect x="180" y="760" width="300" height="96" rx="48" fill="#2EB7FC"/>
+  <rect x="520" y="760" width="300" height="96" rx="48" fill="none" stroke="#2EB7FC" stroke-width="8"/>
+  <!-- component: card -->
+  <rect x="960" y="480" width="460" height="560" rx="24" fill="#ffffff" stroke="#e2e6ef" stroke-width="4"/>
+  <rect x="960" y="480" width="460" height="16" fill="#2EB7FC"/>
+  <rect x="1010" y="560" width="240" height="32" rx="8" fill="#323E59"/>
+  <rect x="1010" y="628" width="360" height="20" rx="6" fill="#c3c9d8"/>
+  <rect x="1010" y="672" width="320" height="20" rx="6" fill="#c3c9d8"/>
+  <rect x="1010" y="740" width="180" height="64" rx="32" fill="#2EB7FC"/>
+  <!-- spacing ruler -->
+  <g fill="#8a93ab">
+    <rect x="180" y="960" width="40" height="40" rx="6"/>
+    <rect x="240" y="960" width="80" height="40" rx="6"/>
+    <rect x="340" y="960" width="120" height="40" rx="6"/>
+    <rect x="480" y="960" width="160" height="40" rx="6"/>
+  </g>
+</svg>

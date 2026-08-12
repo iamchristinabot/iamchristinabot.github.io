@@ -1,4 +1,6 @@
 .sidebar{
+  font-size: 16px; // sidebar stays at 16 while body copy runs at $type-body-size
+
   h4 {
     border-top: 1px solid #DFDFDF;
     padding-top: 30px;

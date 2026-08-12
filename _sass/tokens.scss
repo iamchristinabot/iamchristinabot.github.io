@@ -1,0 +1,36 @@
+// ---------------------------------------------------------------------------
+// Design tokens — the single source of truth for the site's visual language.
+// Named for intent, not for where a value happens to be used.
+// ---------------------------------------------------------------------------
+
+// Color · brand and text
+$color-brand:      #2EB7FC; // brand blue — links, headlines, hero overlay
+$color-text:       #323E59; // navy — headings, emphasis
+$color-body:       #888888; // body copy gray
+$color-surface:    #ffffff;
+$color-band-light: #F5F3F8; // alternating section band, hover fill
+$color-border:     #e8e8e8; // hairlines, meta rows, list dividers
+
+// Color · accent palette (one per featured work / case study)
+$accent-design-system: #2EB7FC;
+$accent-zebbly:        #39b8f9;
+$accent-platform:      #7f5aa0;
+$accent-product:       #ee4e4a;
+$accent-essay:         #e26222;
+
+// Type
+$type-body-size:        18px;   // base body copy; the em-based heading ramp scales from it
+$type-eyebrow-size:     13px;   // numbers, category labels
+$type-eyebrow-tracking: 0.12em;
+$type-subhead-size:     24px;   // .subhead standfirst
+$type-meta-size:        14px;   // meta rows, fine print
+
+// Spacing scale
+$space-xs: 10px;
+$space-sm: 15px;
+$space-md: 30px;
+$space-lg: 45px;
+$space-xl: 65px;
+
+// Elevation
+$shadow-card: 0 2px 12px rgba(50, 62, 89, 0.08);

@@ -1,6 +1,7 @@
-$brand-color: #2EB7FC;
-$body-color: #888888;
-$dark-color: #323E59;
+// Legacy aliases — canonical values live in tokens.scss
+$brand-color: $color-brand;
+$body-color: $color-body;
+$dark-color: $color-text;
 
 $bp-small : 480px;
 $bp-small-plus : 650px;

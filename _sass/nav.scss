@@ -25,4 +25,10 @@ nav {
   a.page-link{
     display: inline-block;
   }
+  a.page-link-contact{
+    display: none;
+    @include breakp($bp-medium){
+      display: inline-block;
+    }
+  }
 }

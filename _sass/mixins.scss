@@ -1,3 +1,5 @@
+@use "tokens" as *;
+
 // Legacy aliases — canonical values live in tokens.scss
 $brand-color: $color-brand;
 $body-color: $color-body;

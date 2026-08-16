@@ -1,3 +1,6 @@
+@use "tokens" as *;
+@use "patterns" as *;
+
 // Style guide page — chrome for documenting the system. The examples
 // themselves render with the site's real classes; only the specimen
 // scaffolding (swatches, spec labels, spacing bars) lives here.
@@ -51,7 +54,7 @@
   .sg-spec {
     display: block;
     font-size: 12px;
-    color: lighten($color-body, 15%);
+    color: #aeaeae; // lighten($color-body, 15%)
     margin: 4px 0 20px;
   }
 

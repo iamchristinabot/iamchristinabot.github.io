@@ -1,3 +1,6 @@
+@use "tokens" as *;
+@use "mixins" as *;
+
 @font-face {
   font-family: 'lora';
   src: url('../fonts/Lora/Lora-Regular.eot'); /* IE9 Compat Modes */
@@ -114,7 +117,7 @@ a.text-inverted:link{
 }
 
 .muted{
-  color: lighten( $body-color, 20% );
+  color: #bbbbbb; // lighten($body-color, 20%)
 }
 
 p {

@@ -1,3 +1,5 @@
+@use "mixins" as *;
+
 .footer {
   background-color: $dark-color;
   text-align: left;

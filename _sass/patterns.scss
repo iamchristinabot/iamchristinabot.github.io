@@ -1,3 +1,6 @@
+@use "tokens" as *;
+@use "mixins" as *;
+
 // ---------------------------------------------------------------------------
 // Patterns — the recurring visual moves of the site, built from tokens.
 // A pattern earns a mixin when it has two consumers.
@@ -33,9 +36,10 @@
 
 // Accent utilities — apply a project's accent to any pattern that reads
 // var(--accent) (cards, featured-work panels). Markup names the
-// project; the token supplies the color.
-.accent-design-system { --accent: #{$accent-design-system}; --accent-tint: #{mix($accent-design-system, #fff, 10%)}; }
-.accent-zebbly        { --accent: #{$accent-zebbly}; --accent-tint: #{mix($accent-zebbly, #fff, 10%)}; }
-.accent-platform      { --accent: #{$accent-platform}; --accent-tint: #{mix($accent-platform, #fff, 10%)}; }
-.accent-product       { --accent: #{$accent-product}; --accent-tint: #{mix($accent-product, #fff, 10%)}; }
-.accent-essay         { --accent: #{$accent-essay}; --accent-tint: #{mix($accent-essay, #fff, 10%)}; }
+// project; the token supplies the color. Tints are mix($accent, #fff, 10%),
+// precomputed because global mix() is deprecated in Dart Sass 3.
+.accent-design-system { --accent: #{$accent-design-system}; --accent-tint: #eaf8ff; }
+.accent-zebbly        { --accent: #{$accent-zebbly}; --accent-tint: #ebf8fe; }
+.accent-platform      { --accent: #{$accent-platform}; --accent-tint: #f2eef6; }
+.accent-product       { --accent: #{$accent-product}; --accent-tint: #fdeded; }
+.accent-essay         { --accent: #{$accent-essay}; --accent-tint: #fcefe9; }

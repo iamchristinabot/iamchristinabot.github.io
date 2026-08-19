@@ -27,7 +27,7 @@
 // precomputed because global mix() is deprecated in Dart Sass 3.
 // --accent-ink is the text-safe variant (≥4.5:1 on white) for eyebrows and labels.
 .accent-design-system { --accent: #{$accent-design-system}; --accent-ink: #{$accent-design-system-ink}; --accent-tint: #eaf8ff; }
-.accent-zebbly        { --accent: #{$accent-zebbly}; --accent-ink: #{$accent-zebbly-ink}; --accent-tint: #ebf8fe; }
+.accent-zebbly        { --accent: #{$accent-zebbly}; --accent-ink: #{$accent-zebbly-ink}; --accent-tint: #f1eef6; }
 .accent-platform      { --accent: #{$accent-platform}; --accent-ink: #{$accent-platform-ink}; --accent-tint: #f2eef6; }
 .accent-product       { --accent: #{$accent-product}; --accent-ink: #{$accent-product-ink}; --accent-tint: #fdeded; }
 .accent-essay         { --accent: #{$accent-essay}; --accent-ink: #{$accent-essay-ink}; --accent-tint: #fcefe9; }

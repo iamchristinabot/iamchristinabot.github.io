@@ -21,15 +21,15 @@ $color-border:     #e8e8e8; // hairlines, meta rows, list dividers
 // Accents are decorative (borders, dots, tints). When an accent is used as
 // text, use its -ink variant, darkened to ≥4.5:1 on white.
 $accent-design-system: #2EB7FC;
-$accent-zebbly:        #39b8f9;
+$accent-zebbly:        #7457a1; // sampled from the Zebbly thumbnail; 5.8:1, doubles as its own ink
 $accent-platform:      #7f5aa0; // already 5.4:1 — doubles as its own ink
 $accent-product:       #ee4e4a;
 $accent-essay:         #e26222;
 
 $accent-design-system-ink: #1b76bc;
-$accent-zebbly-ink:        #1b76bc;
+$accent-zebbly-ink:        #7457a1;
 $accent-platform-ink:      #7f5aa0;
-$accent-product-ink:       #cc2a26;
+$accent-product-ink:       #c9423f; // GLG coral, darkened to 4.8:1
 $accent-essay-ink:         #c2560a;
 
 // Type

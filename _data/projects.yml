@@ -17,7 +17,7 @@ glg-homepage:
    name: "GLG Homepage"
    image: "work/glg-homepage.jpg"
    url: "glg-homepage"
-   color: "#cc2a26"
+   color: "#c9423f"
 lightburn:
    name: "Lightburn"
    image: "work/lightburn.jpg"
@@ -37,7 +37,7 @@ zebbly:
    name: "Zebbly Wishlists"
    image: "work/zebbly.png"
    url: "zebbly"
-   color: "#1b76bc"
+   color: "#7457a1"
 auction-ninja:
    name: "Auction Ninja"
    image: "work/auction-ninja.jpg"

@@ -21,5 +21,10 @@
     // border-right: 1px solid rgba(0,0,0,.07);
     margin: 0;
     padding: 0px 30px 20px 0px;
+
+    // Links inside running text can't rely on color alone (WCAG 1.4.1).
+    p a, li a {
+      text-decoration: underline;
+    }
   }
 }

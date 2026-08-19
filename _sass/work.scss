@@ -6,7 +6,8 @@
     position: relative;
     display: block;
   }
-  .portfolio-item-link:hover .portfolio-item-content {
+  .portfolio-item-link:hover .portfolio-item-content,
+  .portfolio-item-link:focus .portfolio-item-content {
     opacity: 1;
     visibility: visible;
   }
@@ -19,7 +20,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: $brand-color;
+      background: $color-brand-ink; // fallback; tiles set their accent inline
       opacity: 0;
       visibility: hidden;
       -webkit-transition: all .2s ease-in-out;

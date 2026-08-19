@@ -3,6 +3,10 @@
   h4.headline{
     margin: 60px 0 40px 0;
   }
+  // In-sentence links need more than color to stand out (WCAG 1.4.1).
+  p a {
+    text-decoration: underline;
+  }
   #instagram{
     position: relative;
     z-index: 1000;

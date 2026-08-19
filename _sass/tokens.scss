@@ -4,19 +4,33 @@
 // ---------------------------------------------------------------------------
 
 // Color · brand and text
-$color-brand:      #2EB7FC; // brand blue — links, headlines, hero overlay
+// Text and interactive colors meet WCAG 2.1 AA contrast (4.5:1) on white,
+// $color-band-light, and the accent tints. $color-brand stays for decorative
+// moments only (borders, dots, monogram); text and UI use the ink variants.
+$color-brand:      #2EB7FC; // brand blue — decorative, or fills carrying navy text
+$color-brand-ink:  #1b76bc; // the one text blue: links, nav, wordmark, hero overlay (4.8:1)
+$color-brand-deep: #14588d; // hover states — darkened ink, same hue (7.5:1 on white)
 $color-text:       #323E59; // navy — headings, emphasis
-$color-body:       #888888; // body copy gray
+$color-body:       #6b6b6b; // body copy gray (5.3:1 on white, ≥4.5:1 on bands/tints)
+$color-muted:      #767676; // timestamps, spec labels, fine print (4.5:1 on white)
 $color-surface:    #ffffff;
 $color-band-light: #F5F3F8; // alternating section band, hover fill
 $color-border:     #e8e8e8; // hairlines, meta rows, list dividers
 
 // Color · accent palette (one per featured work / case study)
+// Accents are decorative (borders, dots, tints). When an accent is used as
+// text, use its -ink variant, darkened to ≥4.5:1 on white.
 $accent-design-system: #2EB7FC;
 $accent-zebbly:        #39b8f9;
-$accent-platform:      #7f5aa0;
+$accent-platform:      #7f5aa0; // already 5.4:1 — doubles as its own ink
 $accent-product:       #ee4e4a;
 $accent-essay:         #e26222;
+
+$accent-design-system-ink: #1b76bc;
+$accent-zebbly-ink:        #1b76bc;
+$accent-platform-ink:      #7f5aa0;
+$accent-product-ink:       #cc2a26;
+$accent-essay-ink:         #c2560a;
 
 // Type
 $type-body-size:        18px;   // base body copy; the em-based heading ramp scales from it

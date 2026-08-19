@@ -18,11 +18,28 @@ permalink: /styleguide/
       </div>
     </div>
 
+    <div class="row">
+      <div class="col-sm-12">
+        <nav class="sg-toc" aria-label="Style guide sections">
+          <a href="#brand">Brand</a>
+          <a href="#color">Color</a>
+          <a href="#type">Type</a>
+          <a href="#spacing">Spacing</a>
+          <a href="#layout">Layout</a>
+          <a href="#patterns">Patterns</a>
+          <a href="#motion">Motion</a>
+          <a href="#imagery">Imagery</a>
+          <a href="#accessibility">Accessibility</a>
+          <a href="#voice">Voice</a>
+        </nav>
+      </div>
+    </div>
+
     <!-- Brand -->
     <div class="row">
       <div class="col-sm-12">
         <div class="sg-section">
-          <h4 class="headline">Brand</h4>
+          <h4 class="headline" id="brand">Brand</h4>
           <div class="sg-swatches">
             <div class="sg-swatch">
               <div class="sg-chip sg-chip-bordered sg-chip-center" style="background:#fff">
@@ -31,16 +48,18 @@ permalink: /styleguide/
               <div class="sg-swatch-label"><b>Monogram</b>on light</div>
             </div>
             <div class="sg-swatch">
-              <div class="sg-chip sg-chip-center" style="background:#2EB7FC">
+              <div class="sg-chip sg-chip-center" style="background:#1b76bc">
                 <img src="{{ site.url | prepend: site.baseurl }}/images/logo-monogram-w.png" alt="Christina Dobi monogram, white" class="sg-monogram" />
               </div>
-              <div class="sg-swatch-label"><b>Monogram</b>on brand</div>
+              <div class="sg-swatch-label"><b>Monogram</b>on brand ink</div>
             </div>
           </div>
+          <h4>Wordmark</h4>
           <p class="sg-wordmark">Christina Dobi</p>
-          <span class="sg-spec">wordmark · bold 26px in $color-brand · anchors the header on every page</span>
-          <p>The biggest brand moment is the homepage hero: full-screen video under a
-            70% $color-brand overlay, with the white monogram and wordmark reversed out.</p>
+          <span class="sg-spec">wordmark · bold 26px in $color-brand-ink · anchors the header on every page</span>
+          <p>The biggest brand moment is the homepage hero: full-screen video under an
+            85% $color-brand-ink overlay, with the white monogram and wordmark reversed out.
+            Everything in the hero is large type, which keeps it readable over any video frame.</p>
         </div>
       </div>
     </div>
@@ -49,20 +68,32 @@ permalink: /styleguide/
     <div class="row">
       <div class="col-sm-12">
         <div class="sg-section">
-          <h4 class="headline">Color</h4>
+          <h4 class="headline" id="color">Color</h4>
 
           <div class="sg-swatches">
             <div class="sg-swatch">
               <div class="sg-chip" style="background:#2EB7FC"></div>
-              <div class="sg-swatch-label"><b>$color-brand</b>#2EB7FC</div>
+              <div class="sg-swatch-label"><b>$color-brand</b>#2EB7FC · decorative</div>
+            </div>
+            <div class="sg-swatch">
+              <div class="sg-chip" style="background:#1b76bc"></div>
+              <div class="sg-swatch-label"><b>$color-brand-ink</b>#1b76bc · 4.8:1</div>
+            </div>
+            <div class="sg-swatch">
+              <div class="sg-chip" style="background:#14588d"></div>
+              <div class="sg-swatch-label"><b>$color-brand-deep</b>#14588d · 7.5:1</div>
             </div>
             <div class="sg-swatch">
               <div class="sg-chip" style="background:#323E59"></div>
-              <div class="sg-swatch-label"><b>$color-text</b>#323E59</div>
+              <div class="sg-swatch-label"><b>$color-text</b>#323E59 · 10.7:1</div>
             </div>
             <div class="sg-swatch">
-              <div class="sg-chip" style="background:#888888"></div>
-              <div class="sg-swatch-label"><b>$color-body</b>#888888</div>
+              <div class="sg-chip" style="background:#6b6b6b"></div>
+              <div class="sg-swatch-label"><b>$color-body</b>#6b6b6b · 5.3:1</div>
+            </div>
+            <div class="sg-swatch">
+              <div class="sg-chip" style="background:#767676"></div>
+              <div class="sg-swatch-label"><b>$color-muted</b>#767676 · 4.5:1</div>
             </div>
             <div class="sg-swatch">
               <div class="sg-chip sg-chip-bordered" style="background:#F5F3F8"></div>
@@ -74,27 +105,32 @@ permalink: /styleguide/
             </div>
           </div>
 
-          <p>Each featured project carries one accent, threaded through its tiles, cards, and featured sections.</p>
+          <p>Each project on the work page carries one color, shown in its tile overlay.
+            Every one holds white tile text at 4.5:1 or better.</p>
           <div class="sg-swatches">
             <div class="sg-swatch">
-              <div class="sg-chip" style="background:#2EB7FC"></div>
-              <div class="sg-swatch-label"><b>$accent-design-system</b>#2EB7FC</div>
+              <div class="sg-chip" style="background:#1b76bc"></div>
+              <div class="sg-swatch-label"><b>Survey Tool · Zebbly · Design System</b>#1b76bc</div>
             </div>
             <div class="sg-swatch">
-              <div class="sg-chip" style="background:#39b8f9"></div>
-              <div class="sg-swatch-label"><b>$accent-zebbly</b>#39b8f9</div>
+              <div class="sg-chip" style="background:#2f6cb3"></div>
+              <div class="sg-swatch-label"><b>Recruiting App</b>#2f6cb3</div>
+            </div>
+            <div class="sg-swatch">
+              <div class="sg-chip" style="background:#cc2a26"></div>
+              <div class="sg-swatch-label"><b>GLG Homepage</b>#cc2a26</div>
+            </div>
+            <div class="sg-swatch">
+              <div class="sg-chip" style="background:#c2560a"></div>
+              <div class="sg-swatch-label"><b>Gibbs Tuff · Lightburn</b>#c2560a</div>
             </div>
             <div class="sg-swatch">
               <div class="sg-chip" style="background:#7f5aa0"></div>
-              <div class="sg-swatch-label"><b>$accent-platform</b>#7f5aa0</div>
+              <div class="sg-swatch-label"><b>Maps of Imaginary Places</b>#7f5aa0</div>
             </div>
             <div class="sg-swatch">
-              <div class="sg-chip" style="background:#ee4e4a"></div>
-              <div class="sg-swatch-label"><b>$accent-product</b>#ee4e4a</div>
-            </div>
-            <div class="sg-swatch">
-              <div class="sg-chip" style="background:#e26222"></div>
-              <div class="sg-swatch-label"><b>$accent-essay</b>#e26222</div>
+              <div class="sg-chip" style="background:#3E4A73"></div>
+              <div class="sg-swatch-label"><b>Auction Ninja</b>#3E4A73</div>
             </div>
           </div>
         </div>
@@ -105,7 +141,7 @@ permalink: /styleguide/
     <div class="row">
       <div class="col-sm-12">
         <div class="sg-section">
-          <h4 class="headline">Type</h4>
+          <h4 class="headline" id="type">Type</h4>
 
           <h1>Heading one</h1>
           <span class="sg-spec">h1 · Source Sans Pro · normal · 2.441em / 3.052em</span>
@@ -126,9 +162,9 @@ permalink: /styleguide/
           <span class="sg-spec">.subhead · weight 100 · 24px</span>
 
           <p class="sg-eyebrow accent-design-system">Eyebrow label</p>
-          <span class="sg-spec">eyebrow pattern · 13px bold caps · 0.12em tracking · accent color</span>
+          <span class="sg-spec">eyebrow pattern · 13px bold caps · 0.12em tracking · accent -ink color</span>
 
-          <p>Body copy is Source Sans Pro light at 18px ($type-body-size) with 1.6 line height, in $color-body gray. Links pick up <a href="#">the brand blue</a>, and emphasis uses <b>the navy text color</b>.</p>
+          <p>Body copy is Source Sans Pro light at 18px ($type-body-size) with 1.6 line height, in $color-body gray. Links pick up <a href="#">the brand ink blue</a>, and emphasis uses <b>the navy text color</b>.</p>
           <span class="sg-spec">p · weight 200 · 18px / 1.6 · $type-body-size</span>
         </div>
       </div>
@@ -138,7 +174,7 @@ permalink: /styleguide/
     <div class="row">
       <div class="col-sm-12">
         <div class="sg-section">
-          <h4 class="headline">Spacing</h4>
+          <h4 class="headline" id="spacing">Spacing</h4>
           <div class="sg-space-row"><span>$space-xs · 10px</span><span class="sg-space-bar" style="width:10px"></span></div>
           <div class="sg-space-row"><span>$space-sm · 15px</span><span class="sg-space-bar" style="width:15px"></span></div>
           <div class="sg-space-row"><span>$space-md · 30px</span><span class="sg-space-bar" style="width:30px"></span></div>
@@ -153,13 +189,13 @@ permalink: /styleguide/
     <div class="row">
       <div class="col-sm-12">
         <div class="sg-section">
-          <h4 class="headline">Layout</h4>
+          <h4 class="headline" id="layout">Layout</h4>
           <p>Pages sit on a 12-column grid. Long-form content lives in a centered
             9-column reading measure; back links and headers align to the container edge.
             Sections alternate between three full-bleed bands:</p>
           <div class="sg-band-strip" style="background:#fff; border:1px solid #e8e8e8;">$color-surface &middot; primary content</div>
           <div class="sg-band-strip" style="background:#F5F3F8;">$color-band-light &middot; alternating sections, screenshot bands</div>
-          <div class="sg-band-strip sg-band-strip-inverted" style="background:#2EB7FC;">$color-brand &middot; contact band, Instagram, hero overlay</div>
+          <div class="sg-band-strip sg-band-strip-inverted" style="background:#1b76bc;">$color-brand-ink &middot; contact band with white text; CTAs keep bright $color-brand with navy</div>
           <span class="sg-spec">work pages alternate content sections with full-bleed $color-band-light screenshot bands</span>
         </div>
       </div>
@@ -169,20 +205,20 @@ permalink: /styleguide/
     <div class="row">
       <div class="col-sm-12">
         <div class="sg-section">
-          <h4 class="headline">Patterns</h4>
+          <h4 class="headline" id="patterns">Patterns</h4>
 
           <div class="sg-example">
             <h4>Accent card</h4>
-            <span class="sg-spec">accent-card mixin · white surface, 4px accent top border, $shadow-card</span>
+            <span class="sg-spec">.accent-card component (card.scss) · white surface, 4px $color-brand top border, $shadow-card · one accent color only</span>
             <div class="row">
               <div class="col-sm-4">
-                <div class="ed-card accent-product">
+                <div class="accent-card">
                   <h4>Engineering</h4>
                   <p>Building robust, maintainable products from the ground up.</p>
                 </div>
               </div>
               <div class="col-sm-4">
-                <div class="ed-card accent-platform">
+                <div class="accent-card">
                   <h4>Product Innovation</h4>
                   <p>Turning ideas and opportunities into products.</p>
                 </div>
@@ -219,39 +255,32 @@ permalink: /styleguide/
 
           <div class="sg-example">
             <h4>Back link</h4>
-            <span class="sg-spec">eyebrow style in $color-brand · nudges left on hover · tops every detail page, aligned to the container edge</span>
+            <span class="sg-spec">eyebrow style in $color-brand-ink · nudges left on hover · tops every detail page, aligned to the container edge</span>
             <p><a href="#" class="back-link">&larr; Back to work</a></p>
           </div>
 
           <div class="sg-example">
             <h4>Call to action</h4>
-            <span class="sg-spec">.ed-cta · solid $color-brand pill, bold white label</span>
+            <span class="sg-spec">.ed-cta · bright $color-brand pill, bold navy label · inverts to navy on hover</span>
             <p><a class="ed-cta" href="#">Let&rsquo;s Talk</a></p>
           </div>
 
           <div class="sg-example">
             <h4>Highlight band</h4>
-            <span class="sg-spec">.container-highlight · full-bleed $color-brand band with inverted text</span>
+            <span class="sg-spec">.container-highlight · full-bleed $color-brand-ink band with white text (4.8:1)</span>
             <div class="container-highlight sg-band-demo">
-              <h4 class="text-inverted">Say Hello</h4>
-              <p class="text-inverted" style="margin: 0;">Full-width brand moments: the contact band, the Instagram section.</p>
+              <h4>Say Hello</h4>
+              <p style="margin: 0;">Full-width brand moments: the contact band, the Instagram section.</p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Links -->
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="sg-section">
-          <h4 class="headline">Links</h4>
-          <p><a href="#">A default link</a> is quiet $color-body gray, lightening on hover.</p>
-          <span class="sg-spec">a · $color-body · hover #b5b5b5 · no underlines anywhere</span>
-          <p><a href="#" class="brand">A brand link</a> opts into $color-brand with class .brand.</p>
-          <span class="sg-spec">a.brand · $color-brand</span>
-          <p><a href="#" class="ed-more-link">A more link leads somewhere &rarr;</a></p>
-          <span class="sg-spec">.ed-more-link · bold, with a trailing arrow · section footers</span>
+          <div class="sg-example">
+            <h4>Links</h4>
+            <p><a href="#">A default link</a> is $color-brand-ink blue, deepening on hover.</p>
+            <span class="sg-spec">a · $color-brand-ink · hover $color-brand-deep · underlined when inside running text</span>
+            <p><a href="#" class="ed-more-link">A more link leads somewhere &rarr;</a></p>
+            <span class="sg-spec">.ed-more-link · bold, with a trailing arrow · section footers</span>
+          </div>
         </div>
       </div>
     </div>
@@ -260,12 +289,15 @@ permalink: /styleguide/
     <div class="row">
       <div class="col-sm-12">
         <div class="sg-section">
-          <h4 class="headline">Motion</h4>
+          <h4 class="headline" id="motion">Motion</h4>
           <p class="fadeInUp" style="margin-bottom: 4px;">Content enters with a fade.</p>
           <span class="sg-spec">.fadeInUp / .fadeIn · 1s ease, 0.2s delay · statements and page openers only</span>
           <p>Everything interactive answers in 0.15s ease: cards lift their shadow,
             tiles reveal their accent bar, the back link nudges left, the CTA deepens.
             Motion confirms, it never decorates.</p>
+          <p>Motion is optional: when the visitor prefers reduced motion, entrance fades
+            are skipped and the hero video starts paused. The video always carries its
+            own pause control.</p>
         </div>
       </div>
     </div>
@@ -274,7 +306,7 @@ permalink: /styleguide/
     <div class="row">
       <div class="col-sm-12">
         <div class="sg-section">
-          <h4 class="headline">Imagery</h4>
+          <h4 class="headline" id="imagery">Imagery</h4>
           <p>Portfolio tiles are 4:3 (1600&times;1200) screenshots or product art.
             Work pages show full-width screenshots on $color-band-light bands, up to
             1000px wide. Featured panels crop tall screenshots at a 16px-radius edge,
@@ -283,11 +315,51 @@ permalink: /styleguide/
       </div>
     </div>
 
+    <!-- Accessibility -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="sg-section">
+          <h4 class="headline" id="accessibility">Accessibility</h4>
+          <p>The system is built to WCAG 2.1 Level AA. The rules below are part of the
+            design language, not an overlay on top of it.</p>
+
+          <h4>Contrast</h4>
+          <p>Every text color meets a 4.5:1 contrast ratio on the surfaces it appears on,
+            including $color-band-light and the accent tints. $color-body (5.3:1) and
+            $color-muted (4.5:1) are the lightest grays allowed for copy.
+            $color-brand-ink is the single text blue, holding 4.8:1 on white; the
+            bright $color-brand survives as fills that carry navy text, never white.
+            Accent colors used as text swap to their -ink variants.</p>
+          <span class="sg-spec">tokens.scss documents the measured ratio next to each color</span>
+
+          <h4>Keyboard</h4>
+          <p>A skip link jumps to the main landmark, every page uses one
+            <code>&lt;main&gt;</code>, and all interactive elements show a 3px
+            $color-brand-ink focus ring. Hover-revealed content, like the portfolio tile
+            overlay, also reveals on focus.</p>
+          <span class="sg-spec">:focus outline · 3px $color-brand-ink · 2px offset · never removed</span>
+
+          <h4>Motion</h4>
+          <p>The hero video has a visible pause control and respects
+            <code>prefers-reduced-motion</code>, which also disables entrance animations.</p>
+
+          <h4>Images and icons</h4>
+          <p>Every content image carries descriptive alt text; images that repeat adjacent
+            text use empty alt. Icon-only links carry <code>aria-label</code>s and hide
+            their glyphs from screen readers.</p>
+
+          <h4>Links</h4>
+          <p>Links inside running text are underlined, never distinguished by color
+            alone.</p>
+        </div>
+      </div>
+    </div>
+
     <!-- Voice -->
     <div class="row">
       <div class="col-sm-12">
         <div class="sg-section">
-          <h4 class="headline">Voice</h4>
+          <h4 class="headline" id="voice">Voice</h4>
           <p>Sentence case everywhere, including headlines; only section labels are
             uppercase. Statements are short, first-person claims: "I build thoughtful
             products that make complex things feel simple." Never an em dash; reach
@@ -300,7 +372,7 @@ permalink: /styleguide/
     <div class="row">
       <div class="col-sm-12">
         <p>
-          The system lives in <code>_sass/tokens.scss</code> and <code>_sass/patterns.scss</code>.
+          The system lives in <code>_sass/tokens.scss</code>, <code>_sass/patterns.scss</code>, and shared components like <code>_sass/card.scss</code>.
         </p>
       </div>
     </div>

@@ -21,15 +21,45 @@
     z-index: 1;
   }
 
+  // Brand ink at 85%: worst case (pure-white video frame) still leaves
+  // white text at 3.5:1, which passes AA because everything in the hero
+  // is large text (≥24px, or ≥19px bold for the nav links).
   .ed-hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: $color-brand;
+    background: $color-brand-ink;
     z-index: 2;
-    @include opacity(.7);
+    @include opacity(.85);
+  }
+
+  // Pause control for the background video (WCAG 2.2.2) — icon-only,
+  // named for assistive tech via aria-label.
+  .ed-video-toggle {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    z-index: 4;
+    width: 44px;
+    height: 44px;
+    background: rgba(0, 0, 0, 0.35);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 1;
+    padding: 0;
+    cursor: pointer;
+
+    .fa-play {
+      margin-left: 3px; // optically center the triangle
+    }
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.55);
+    }
   }
 
   .ed-hero-content {
@@ -83,6 +113,8 @@
     a:visited {
       color: #fff;
       margin: 0 $space-xs;
+      font-size: 19px;
+      font-weight: bold; // 19px bold = WCAG large text, so 3:1 applies over the overlay
     }
 
     .social {
@@ -129,22 +161,9 @@ h4.headline {
   border-top: none;
 }
 
-.ed-card {
-  --accent: #{$color-brand};
-  @include accent-card;
-  margin-bottom: 25px;
-
-  h4 {
-    margin-top: 0;
-  }
-
-  p {
-    margin-bottom: 0;
-  }
-}
-
 .ed-more-link {
   font-weight: bold;
+  font-size: 19px; // large text: keeps the bright link blue passing on $color-band-light
 }
 
 // Primary call to action — solid brand pill.
@@ -152,24 +171,25 @@ h4.headline {
   margin-top: $space-md;
 }
 
+// Bright brand pill with navy label (4.7:1); inverts to navy on hover.
 .ed-cta {
   display: inline-block;
   background: $color-brand;
   font-weight: bold;
   border-radius: 999px;
   padding: 12px 36px;
-  transition: background 0.15s ease;
+  transition: background 0.15s ease, color 0.15s ease;
 
   &,
   &:link,
   &:active,
   &:visited {
-    color: #fff;
+    color: $color-text;
   }
 
   &:hover,
   &:focus {
-    background: #06a9fb; // darken($color-brand, 8%)
+    background: $color-text;
     color: #fff;
     text-decoration: none;
   }
@@ -287,18 +307,18 @@ h4.headline {
 
 .back-link {
   display: inline-block;
-  @include eyebrow($color-brand);
+  @include eyebrow($color-brand-ink);
   transition: transform 0.15s ease, color 0.15s ease;
 
   &:link,
   &:active,
   &:visited {
-    color: $color-brand;
+    color: $color-brand-ink;
   }
 
   &:hover,
   &:focus {
-    color: #039ce9; // darken($color-brand, 12%)
+    color: $color-brand-deep;
     text-decoration: none;
     transform: translateX(-4px);
   }

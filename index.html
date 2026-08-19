@@ -8,10 +8,11 @@ header: false
 
   <!-- Hero -->
   <section class="ed-hero-video">
-    <video class="hidden-xs" autoplay loop muted playsinline>
+    <video id="hero-video" class="hidden-xs" autoplay loop muted playsinline aria-hidden="true">
       <source src="video/christinadobi-video.mp4" type="video/mp4">
     </video>
     <div class="ed-hero-overlay"></div>
+    <button type="button" id="hero-video-toggle" class="ed-video-toggle hidden-xs" aria-pressed="false" aria-label="Pause background video"><span class="fa fa-pause" aria-hidden="true"></span></button>
     <div class="ed-hero-content">
       <div class="fadeInUp">
         <img src="{{ site.url | prepend: site.baseurl }}/images/logo-monogram-w.png" class="monogram" alt="Christina Dobi monogram" />
@@ -20,19 +21,52 @@ header: false
           Product engineer turning ideas into thoughtful digital experiences.
         </p>
       </div>
-      <div class="fadeIn ed-hero-nav">
+      <nav class="fadeIn ed-hero-nav" aria-label="Hero">
         <p>
           <a href="{{ site.url | prepend: site.baseurl }}/projects/" class="decorate">Work</a>
           <a href="{{ site.url | prepend: site.baseurl }}/about/" class="decorate">About</a>
           <a href="mailto:{{site.email}}" class="decorate">Contact</a>
         </p>
         <div class="social">
-          <a href="https://www.linkedin.com/in/{{site.linkedin_id}}/" target="_blank" aria-label="LinkedIn"><span class="fa fa-linkedin"></span></a>
-          <a href="https://github.com/{{site.github_id}}" target="_blank" aria-label="GitHub"><span class="fa fa-github"></span></a>
+          <a href="https://www.linkedin.com/in/{{site.linkedin_id}}/" target="_blank" aria-label="LinkedIn"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+          <a href="https://github.com/{{site.github_id}}" target="_blank" aria-label="GitHub"><span class="fa fa-github" aria-hidden="true"></span></a>
+          <a href="https://www.instagram.com/{{site.instagram_id}}/" target="_blank" aria-label="Instagram"><span class="fa fa-instagram" aria-hidden="true"></span></a>
         </div>
-      </div>
+      </nav>
     </div>
   </section>
+
+  <script>
+    (function () {
+      var video = document.getElementById('hero-video');
+      var toggle = document.getElementById('hero-video-toggle');
+      if (!video || !toggle) return;
+
+      var icon = toggle.querySelector('.fa');
+
+      function setState(paused) {
+        toggle.setAttribute('aria-pressed', paused ? 'true' : 'false');
+        toggle.setAttribute('aria-label', paused ? 'Play background video' : 'Pause background video');
+        icon.className = paused ? 'fa fa-play' : 'fa fa-pause';
+      }
+
+      // Honor the user's reduced-motion preference (WCAG 2.3.3).
+      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        video.pause();
+        setState(true);
+      }
+
+      toggle.addEventListener('click', function () {
+        if (video.paused) {
+          video.play();
+          setState(false);
+        } else {
+          video.pause();
+          setState(true);
+        }
+      });
+    })();
+  </script>
 
   <!-- What I Build -->
   <div class="container-fluid container-highlight-light">
@@ -50,19 +84,19 @@ header: false
         </p>
         <div class="row">
           <div class="col-sm-4">
-            <div class="ed-card accent-product">
+            <div class="accent-card">
               <h4>Engineering</h4>
               <p>Building robust, maintainable products from the ground up, from technical decisions and frontend architecture to implementation and iteration.</p>
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="ed-card accent-platform">
+            <div class="accent-card">
               <h4>Product Innovation</h4>
               <p>Turning ideas and opportunities into products. I explore new concepts, shape product direction, and translate complex problems into simple, useful experiences.</p>
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="ed-card accent-design-system">
+            <div class="accent-card">
               <h4>Design Systems</h4>
               <p>Building the foundations that connect design and engineering: tokens, components, patterns, and tooling that make products more consistent and scalable.</p>
             </div>
@@ -104,7 +138,7 @@ header: false
           </div>
         </div>
         <p class="ed-feature-links">
-          <a href="{{ site.url | prepend: site.baseurl }}/projects/zebbly/">Read the Zebbly case study &rarr;</a>
+          <a href="{{ site.url | prepend: site.baseurl }}/projects/zebbly/">See the Zebbly project &rarr;</a>
         </p>
       </div>
 
@@ -134,7 +168,7 @@ header: false
           </div>
         </div>
         <p class="ed-feature-links">
-          <a href="{{ site.url | prepend: site.baseurl }}/projects/glg-homepage">See the project &rarr;</a>
+          <a href="{{ site.url | prepend: site.baseurl }}/projects/glg-homepage">See the GLG project &rarr;</a>
           &nbsp;&nbsp;
           <a href="{{ site.url | prepend: site.baseurl }}/projects/">View all work &rarr;</a>
         </p>

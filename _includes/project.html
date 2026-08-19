@@ -1,7 +1,7 @@
 {% assign project = site.data.projects[include.project] %}
 <a class="portfolio-item-link" href="{% if project.link %}{{ project.link }}{% else %}/projects/{{ project.url }}{% endif %}">
   <div class="portfolio-item-image">
-    <img src="{{ site.url | prepend: site.baseurl }}/images/{{ project.image }}" class="img-responsive"/>
+    <img src="{{ site.url | prepend: site.baseurl }}/images/{{ project.image }}" class="img-responsive" alt=""/>
   </div>
 
   <div class="portfolio-item-content" style="background: {{ project.color }};">

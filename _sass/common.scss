@@ -4,21 +4,69 @@ a {
   }
   &:link, &:active, &:visited {
     text-decoration: none;
-    color: $body-color;
+    color: $color-brand-ink;
   }
   &.brand:link, &.brand:active, &.brand:visited {
     text-decoration: none;
-    color: $brand-color;
+    color: $color-brand-ink;
   }
   &:hover {
     text-decoration: none;
-    color: #b5b5b5;
-  }
-  &:focus {
-    outline: none;
+    color: $color-brand-deep;
   }
   &.decorate:hover{
     text-decoration: underline;
+  }
+}
+
+// Visible keyboard focus everywhere (WCAG 2.4.7). :focus-visible keeps the
+// ring off mouse clicks in modern browsers; older ones fall back to :focus.
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+.btn:focus {
+  outline: 3px solid $color-brand-ink;
+  outline-offset: 2px;
+}
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible),
+.btn:focus:not(:focus-visible) {
+  outline: none;
+}
+
+// Skip link (WCAG 2.4.1) — first focusable element, hidden until focused.
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 10px 18px;
+  background: $color-text;
+  font-weight: bold;
+
+  &:link, &:active, &:visited {
+    color: #fff;
+  }
+
+  &:focus {
+    left: 0;
+    color: #fff;
+    outline: 3px solid $color-brand-ink;
+    outline-offset: 2px;
+  }
+}
+
+// Honor reduced-motion preferences (WCAG 2.3.3): no entrance animations.
+// The hero video is paused separately in JS.
+@media (prefers-reduced-motion: reduce) {
+  .fadeInUp,
+  .fadeIn {
+    -webkit-animation: none;
+    animation: none;
+  }
+  * {
+    transition-duration: 0.01ms !important;
   }
 }
 
@@ -46,8 +94,20 @@ body {
   max-width: 1024px;
 }
 
+// Brand band — ink blue so white text holds 4.8:1.
 .container-highlight{
-  background-color: $brand-color;
+  background-color: $color-brand-ink;
+
+  h1, h2, h3, h4, h5, p {
+    color: #fff;
+  }
+  a, a:link, a:active, a:visited {
+    color: #fff;
+    text-decoration: underline; // in-sentence links can't rely on color alone
+  }
+  a:hover {
+    color: #fff;
+  }
 }
 .container-highlight-light{
   background-color: #F5F3F8;
@@ -147,7 +207,7 @@ ul.no-bullets {
 .pagination{
   display: block;
   .pagination-plain {
-    color: #aaa;
+    color: $color-muted;
     padding-top: 8px;
     display: inline-block;
   }

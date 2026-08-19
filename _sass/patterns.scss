@@ -5,22 +5,12 @@
 
 // Eyebrow label: small bold caps in an accent color.
 // Used by: back links, styleguide specimens; h4.headline shares its tracking.
-@mixin eyebrow($color: $color-brand) {
+@mixin eyebrow($color: $color-brand-ink) {
   font-size: $type-eyebrow-size;
   font-weight: bold;
   letter-spacing: $type-eyebrow-tracking;
   text-transform: uppercase;
   color: $color;
-}
-
-// Elevated card with an accent top border.
-// Used by: What I Build cards; any future stat/summary card.
-@mixin accent-card {
-  background: $color-surface;
-  border-top: 4px solid var(--accent, #{$color-brand});
-  border-radius: 0 0 3px 3px;
-  box-shadow: $shadow-card;
-  padding: 25px;
 }
 
 // Standard vertical rhythm for a homepage/landing section.
@@ -35,8 +25,9 @@
 // var(--accent) (cards, featured-work panels). Markup names the
 // project; the token supplies the color. Tints are mix($accent, #fff, 10%),
 // precomputed because global mix() is deprecated in Dart Sass 3.
-.accent-design-system { --accent: #{$accent-design-system}; --accent-tint: #eaf8ff; }
-.accent-zebbly        { --accent: #{$accent-zebbly}; --accent-tint: #ebf8fe; }
-.accent-platform      { --accent: #{$accent-platform}; --accent-tint: #f2eef6; }
-.accent-product       { --accent: #{$accent-product}; --accent-tint: #fdeded; }
-.accent-essay         { --accent: #{$accent-essay}; --accent-tint: #fcefe9; }
+// --accent-ink is the text-safe variant (≥4.5:1 on white) for eyebrows and labels.
+.accent-design-system { --accent: #{$accent-design-system}; --accent-ink: #{$accent-design-system-ink}; --accent-tint: #eaf8ff; }
+.accent-zebbly        { --accent: #{$accent-zebbly}; --accent-ink: #{$accent-zebbly-ink}; --accent-tint: #ebf8fe; }
+.accent-platform      { --accent: #{$accent-platform}; --accent-ink: #{$accent-platform-ink}; --accent-tint: #f2eef6; }
+.accent-product       { --accent: #{$accent-product}; --accent-ink: #{$accent-product-ink}; --accent-tint: #fdeded; }
+.accent-essay         { --accent: #{$accent-essay}; --accent-ink: #{$accent-essay-ink}; --accent-tint: #fcefe9; }

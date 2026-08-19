@@ -114,7 +114,7 @@ a.text-inverted:link{
 }
 
 .muted{
-  color: #bbbbbb; // lighten($body-color, 20%)
+  color: $color-muted; // lightest gray that still meets AA (4.5:1) on white
 }
 
 p {

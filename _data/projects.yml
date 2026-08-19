@@ -2,27 +2,27 @@ survey-tool:
    name: "Survey Management Tool"
    image: "work/survey-tool.jpg"
    url: "survey-management-tool"
-   color: "#39b8f9"
+   color: "#1b76bc"
 gibbs-tuff: 
    name: "Gibbs Tuff"
    image: "work/gibbs-tuff.jpg"
    url: "gibbs-tuff"
-   color: "#e26222"
+   color: "#c2560a"
 recruiting: 
    name: "Recruiting Application"
    image: "work/recruiting-app.jpg"
    url: "recruiting-app"
-   color: "#4A90E2"
+   color: "#2f6cb3"
 glg-homepage: 
    name: "GLG Homepage"
    image: "work/glg-homepage.jpg"
    url: "glg-homepage"
-   color: "#ee4e4a"
+   color: "#cc2a26"
 lightburn:
    name: "Lightburn"
    image: "work/lightburn.jpg"
    url: "lightburn"
-   color: "#EEA46F"
+   color: "#c2560a"
 maps-of-imaginary-places:
    name: "Maps of Imaginary Places"
    image: "work/maps-of-imaginary-places.jpg"
@@ -32,12 +32,12 @@ design-system:
    name: "Design System"
    image: "work/design-system.svg"
    link: "/styleguide/"
-   color: "#2EB7FC"
+   color: "#1b76bc"
 zebbly:
    name: "Zebbly Wishlists"
    image: "work/zebbly.png"
    url: "zebbly"
-   color: "#39b8f9"
+   color: "#1b76bc"
 auction-ninja:
    name: "Auction Ninja"
    image: "work/auction-ninja.jpg"

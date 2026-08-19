@@ -16,4 +16,50 @@
       padding-right: 10px;
     }
   }
+
+  // Get in Touch card — an .accent-card (shared component) so type matches
+  // the homepage cards; this only adds the icon-chip rows.
+  .sidebar-contact-card{
+    h4{
+      border-top: none; // undo the sidebar's section-divider h4 treatment
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    p{
+      margin-bottom: 15px; // .accent-card zeroes this; the intro needs room before the list
+    }
+
+    li{
+      margin-bottom: 12px;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+
+    a{
+      display: flex;
+      align-items: center;
+    }
+
+    .contact-chip{
+      flex: none;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: $color-brand-ink;
+      color: #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 12px;
+      transition: background 0.15s ease;
+    }
+
+    a:hover .contact-chip,
+    a:focus .contact-chip{
+      background: $color-brand-deep;
+    }
+  }
 }

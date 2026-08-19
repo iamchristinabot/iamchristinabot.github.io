@@ -7,6 +7,16 @@
     font-size: 12px;
     padding-top: 10px;
   }
+  a, a:link, a:active, a:visited{
+    color: #fff;
+    text-decoration: underline;
+  }
+  a:hover{
+    color: #fff;
+  }
+  .social a, .social a:link, .social a:visited{
+    text-decoration: none; // icon links carry aria-labels instead
+  }
   p {
     color: #fff;
   }
